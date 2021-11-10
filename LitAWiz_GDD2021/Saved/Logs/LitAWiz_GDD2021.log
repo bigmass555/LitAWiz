@@ -1981,3 +1981,298 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.11.10-08.38.23:626][718]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Floor_BP79BA7A1F434DA06A02B9A29A025A0A6E.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Floor_BP.uasset'
 [2021.11.10-08.38.23:637][718]AssetCheck: New page: Asset Save: Floor_BP
 [2021.11.10-08.38.23:637][718]LogContentValidation: Display: Validating Blueprint /Game/62070047/Floor_BP.Floor_BP
+[2021.11.10-08.44.02:058][942]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.11.10-08.44.02:081][942]LogContentBrowser: Creating deferred item: NewFolder
+[2021.11.10-08.44.05:371][260]LogContentBrowser: Attempting asset rename: NewFolder -> Map
+[2021.11.10-08.44.05:385][260]LogContentBrowser: End creating deferred item NewFolder
+[2021.11.10-08.44.09:558][676]LogMetaData: Removing '/Game/62070047/Map/Test_map.SKEL_Test_map_C' ref from Metadata '/Game/62070047/Test_map.PackageMetaData'
+[2021.11.10-08.44.09:558][676]LogMetaData: Removing '/Game/62070047/Map/Test_map.Test_map_C' ref from Metadata '/Game/62070047/Test_map.PackageMetaData'
+[2021.11.10-08.44.09:558][676]LogMetaData: Removing '/Game/62070047/Map/Test_map.Test_map:PersistentLevel.Test_map.EventGraph.K2Node_Event_0' ref from Metadata '/Game/62070047/Test_map.PackageMetaData'
+[2021.11.10-08.44.09:558][676]LogMetaData: Removing '/Game/62070047/Map/Test_map.Test_map:PersistentLevel.Test_map.EventGraph.K2Node_Event_1' ref from Metadata '/Game/62070047/Test_map.PackageMetaData'
+[2021.11.10-08.44.09:558][676]LogMetaData: Removing '/Game/62070047/Map/Test_map.Test_map_C:ReceiveBeginPlay' ref from Metadata '/Game/62070047/Test_map.PackageMetaData'
+[2021.11.10-08.44.09:558][676]LogMetaData: Removing '/Game/62070047/Map/Test_map.SKEL_Test_map_C:ReceiveTick' ref from Metadata '/Game/62070047/Test_map.PackageMetaData'
+[2021.11.10-08.44.09:558][676]LogMetaData: Removing '/Game/62070047/Map/Test_map.SKEL_Test_map_C:ReceiveBeginPlay' ref from Metadata '/Game/62070047/Test_map.PackageMetaData'
+[2021.11.10-08.44.09:585][676]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/62070047/Map/Test_map_BuiltData" FILE="C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Map/Test_map_BuiltData.uasset" SILENT=true
+[2021.11.10-08.44.09:600][676]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Test_map_BuiltData6D6D9F2B453A479F488D70AE5A604154.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Map/Test_map_BuiltData.uasset'
+[2021.11.10-08.44.09:639][676]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2021.11.10-08.44.09:658][676]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Test_map30671C4746B0F0E5A10D85A951C47E2D.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Map/Test_map.umap'
+[2021.11.10-08.44.09:667][676]LogFileHelpers: Saving map 'Test_map' took 0.067
+[2021.11.10-08.44.09:758][676]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.11.10-08.44.09:789][676]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.11.10-08.44.09:825][676]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2021.11.10-08.44.09:855][676]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.11.10-08.44.09:899][676]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.10-08.44.09:899][676]LogContentValidation: Display: Validating World /Game/62070047/Map/Test_map.Test_map
+[2021.11.10-08.44.09:899][676]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/62070047/Map/Test_map_BuiltData.Test_map_BuiltData
+[2021.11.10-08.44.12:302][885]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2021.11.10-08.44.12:320][885]LogAssetEditorSubsystem: Opening Asset editor for World /Game/62070047/Map/Test_map.Test_map
+[2021.11.10-08.44.12:320][885]Cmd: MAP LOAD FILE="C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Map/Test_map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.10-08.44.12:321][885]LightingResults: New page: Lighting Build
+[2021.11.10-08.44.12:321][885]LoadErrors: New page: Loading map: Test_map.umap
+[2021.11.10-08.44.12:328][885]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.11.10-08.44.12:328][885]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.10-08.44.12:414][885]LogWorld: UWorld::CleanupWorld for Test_map, bSessionEnded=true, bCleanupResources=true
+[2021.11.10-08.44.12:414][885]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.10-08.44.12:414][885]MapCheck: New page: Map Check
+[2021.11.10-08.44.12:414][885]LightingResults: New page: Lighting Build
+[2021.11.10-08.44.12:448][885]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.10-08.44.12:484][885]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2021.11.10-08.44.12:501][885]LogAudio: Display: Audio Device (ID: 1) registered with world 'Test_map'.
+[2021.11.10-08.44.12:502][885]LogAIModule: Creating AISystem for world Test_map
+[2021.11.10-08.44.12:577][885]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.10-08.44.12:607][885]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2021.11.10-08.44.12:616][885]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.10-08.44.12:616][885]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.116ms to complete.
+[2021.11.10-08.44.12:616][885]LogFileHelpers: Loading map 'Test_map' took 0.296
+[2021.11.10-08.44.32:710][951]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.11.10-08.44.32:728][951]LogContentBrowser: Creating deferred item: NewFolder
+[2021.11.10-08.44.40:926][932]LogContentBrowser: Attempting asset rename: NewFolder -> Blueprints
+[2021.11.10-08.44.40:927][932]LogContentBrowser: End creating deferred item NewFolder
+[2021.11.10-08.44.46:821][547]LogContentBrowser: Attempting asset rename: Map -> Maps
+[2021.11.10-08.44.46:857][547]LogMetaData: Removing '/Game/62070047/Maps/Test_map.Test_map:PersistentLevel.Test_map.EventGraph.K2Node_Event_0' ref from Metadata '/Game/62070047/Map/Test_map.PackageMetaData'
+[2021.11.10-08.44.46:857][547]LogMetaData: Removing '/Game/62070047/Maps/Test_map.Test_map:PersistentLevel.Test_map.EventGraph.K2Node_Event_1' ref from Metadata '/Game/62070047/Map/Test_map.PackageMetaData'
+[2021.11.10-08.44.46:857][547]LogMetaData: Removing '/Game/62070047/Maps/Test_map.Test_map_C' ref from Metadata '/Game/62070047/Map/Test_map.PackageMetaData'
+[2021.11.10-08.44.46:857][547]LogMetaData: Removing '/Game/62070047/Maps/Test_map.SKEL_Test_map_C:ReceiveBeginPlay' ref from Metadata '/Game/62070047/Map/Test_map.PackageMetaData'
+[2021.11.10-08.44.46:857][547]LogMetaData: Removing '/Game/62070047/Maps/Test_map.SKEL_Test_map_C:ReceiveTick' ref from Metadata '/Game/62070047/Map/Test_map.PackageMetaData'
+[2021.11.10-08.44.46:857][547]LogMetaData: Removing '/Game/62070047/Maps/Test_map.SKEL_Test_map_C' ref from Metadata '/Game/62070047/Map/Test_map.PackageMetaData'
+[2021.11.10-08.44.46:857][547]LogMetaData: Removing '/Game/62070047/Maps/Test_map.Test_map_C:ReceiveBeginPlay' ref from Metadata '/Game/62070047/Map/Test_map.PackageMetaData'
+[2021.11.10-08.44.46:879][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/62070047/Maps/Test_map_BuiltData" FILE="C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Maps/Test_map_BuiltData.uasset" SILENT=true
+[2021.11.10-08.44.46:895][547]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Test_map_BuiltData894439914E8A4804562EC2911042DCDD.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Maps/Test_map_BuiltData.uasset'
+[2021.11.10-08.44.47:430][547]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2021.11.10-08.44.47:441][547]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Test_mapC14A72404BF2C2FECDD48D816718CC31.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Maps/Test_map.umap'
+[2021.11.10-08.44.47:450][547]LogFileHelpers: Saving map 'Test_map' took 0.050
+[2021.11.10-08.44.47:557][547]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.11.10-08.44.47:584][547]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.11.10-08.44.47:619][547]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2021.11.10-08.44.47:647][547]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2021.11.10-08.44.47:695][547]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.10-08.44.47:695][547]LogContentValidation: Display: Validating World /Game/62070047/Maps/Test_map.Test_map
+[2021.11.10-08.44.47:695][547]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/62070047/Maps/Test_map_BuiltData.Test_map_BuiltData
+[2021.11.10-08.44.58:269][614]LogMetaData: Removing '/Game/62070047/Blueprints/Floor_BP.Floor_BP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/62070047/Floor_BP.PackageMetaData'
+[2021.11.10-08.44.58:269][614]LogMetaData: Removing '/Game/62070047/Blueprints/Floor_BP.Floor_BP_C' ref from Metadata '/Game/62070047/Floor_BP.PackageMetaData'
+[2021.11.10-08.44.58:269][614]LogMetaData: Removing '/Game/62070047/Blueprints/Floor_BP.Floor_BP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/62070047/Floor_BP.PackageMetaData'
+[2021.11.10-08.44.58:269][614]LogMetaData: Removing '/Game/62070047/Blueprints/Floor_BP.Floor_BP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/62070047/Floor_BP.PackageMetaData'
+[2021.11.10-08.44.58:269][614]LogMetaData: Removing '/Game/62070047/Blueprints/Floor_BP.Floor_BP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/62070047/Floor_BP.PackageMetaData'
+[2021.11.10-08.44.58:269][614]LogMetaData: Removing '/Game/62070047/Blueprints/Floor_BP.Floor_BP:OnHitFloor.K2Node_FunctionEntry_0' ref from Metadata '/Game/62070047/Floor_BP.PackageMetaData'
+[2021.11.10-08.44.58:269][614]LogMetaData: Removing '/Game/62070047/Blueprints/Floor_BP.SKEL_Floor_BP_C' ref from Metadata '/Game/62070047/Floor_BP.PackageMetaData'
+[2021.11.10-08.44.58:269][614]LogMetaData: Removing '/Game/62070047/Blueprints/Floor_BP.SKEL_Floor_BP_C:ReceiveBeginPlay' ref from Metadata '/Game/62070047/Floor_BP.PackageMetaData'
+[2021.11.10-08.44.58:269][614]LogMetaData: Removing '/Game/62070047/Blueprints/Floor_BP.SKEL_Floor_BP_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/62070047/Floor_BP.PackageMetaData'
+[2021.11.10-08.44.58:270][614]LogMetaData: Removing '/Game/62070047/Blueprints/Floor_BP.SKEL_Floor_BP_C:ReceiveTick' ref from Metadata '/Game/62070047/Floor_BP.PackageMetaData'
+[2021.11.10-08.44.58:270][614]LogMetaData: Removing '/Game/62070047/Blueprints/Floor_BP.SKEL_Floor_BP_C:BndEvt__Floor_BP_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/62070047/Floor_BP.PackageMetaData'
+[2021.11.10-08.44.58:270][614]LogMetaData: Removing '/Game/62070047/Blueprints/Floor_BP.SKEL_Floor_BP_C:UserConstructionScript' ref from Metadata '/Game/62070047/Floor_BP.PackageMetaData'
+[2021.11.10-08.44.58:272][614]LogMetaData: Removing '/Game/62070047/Blueprints/FireBall_BP.FireBall_BP_C' ref from Metadata '/Game/62070047/FireBall_BP.PackageMetaData'
+[2021.11.10-08.44.58:272][614]LogMetaData: Removing '/Game/62070047/Blueprints/FireBall_BP.FireBall_BP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/62070047/FireBall_BP.PackageMetaData'
+[2021.11.10-08.44.58:272][614]LogMetaData: Removing '/Game/62070047/Blueprints/FireBall_BP.FireBall_BP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/62070047/FireBall_BP.PackageMetaData'
+[2021.11.10-08.44.58:272][614]LogMetaData: Removing '/Game/62070047/Blueprints/FireBall_BP.FireBall_BP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/62070047/FireBall_BP.PackageMetaData'
+[2021.11.10-08.44.58:272][614]LogMetaData: Removing '/Game/62070047/Blueprints/FireBall_BP.FireBall_BP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/62070047/FireBall_BP.PackageMetaData'
+[2021.11.10-08.44.58:272][614]LogMetaData: Removing '/Game/62070047/Blueprints/FireBall_BP.SKEL_FireBall_BP_C' ref from Metadata '/Game/62070047/FireBall_BP.PackageMetaData'
+[2021.11.10-08.44.58:272][614]LogMetaData: Removing '/Game/62070047/Blueprints/FireBall_BP.FireBall_BP_C:ReceiveBeginPlay' ref from Metadata '/Game/62070047/FireBall_BP.PackageMetaData'
+[2021.11.10-08.44.58:272][614]LogMetaData: Removing '/Game/62070047/Blueprints/FireBall_BP.FireBall_BP_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/62070047/FireBall_BP.PackageMetaData'
+[2021.11.10-08.44.58:272][614]LogMetaData: Removing '/Game/62070047/Blueprints/FireBall_BP.SKEL_FireBall_BP_C:UserConstructionScript' ref from Metadata '/Game/62070047/FireBall_BP.PackageMetaData'
+[2021.11.10-08.44.58:272][614]LogMetaData: Removing '/Game/62070047/Blueprints/FireBall_BP.SKEL_FireBall_BP_C:ReceiveTick' ref from Metadata '/Game/62070047/FireBall_BP.PackageMetaData'
+[2021.11.10-08.44.58:272][614]LogMetaData: Removing '/Game/62070047/Blueprints/FireBall_BP.SKEL_FireBall_BP_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/62070047/FireBall_BP.PackageMetaData'
+[2021.11.10-08.44.58:272][614]LogMetaData: Removing '/Game/62070047/Blueprints/FireBall_BP.SKEL_FireBall_BP_C:ReceiveBeginPlay' ref from Metadata '/Game/62070047/FireBall_BP.PackageMetaData'
+[2021.11.10-08.44.58:273][614]LogMetaData: Removing '/Game/62070047/Blueprints/Wall_BP.Wall_BP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/62070047/Wall_BP.PackageMetaData'
+[2021.11.10-08.44.58:273][614]LogMetaData: Removing '/Game/62070047/Blueprints/Wall_BP.Wall_BP_C' ref from Metadata '/Game/62070047/Wall_BP.PackageMetaData'
+[2021.11.10-08.44.58:273][614]LogMetaData: Removing '/Game/62070047/Blueprints/Wall_BP.Wall_BP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/62070047/Wall_BP.PackageMetaData'
+[2021.11.10-08.44.58:273][614]LogMetaData: Removing '/Game/62070047/Blueprints/Wall_BP.Wall_BP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/62070047/Wall_BP.PackageMetaData'
+[2021.11.10-08.44.58:273][614]LogMetaData: Removing '/Game/62070047/Blueprints/Wall_BP.Wall_BP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/62070047/Wall_BP.PackageMetaData'
+[2021.11.10-08.44.58:273][614]LogMetaData: Removing '/Game/62070047/Blueprints/Wall_BP.SKEL_Wall_BP_C:ReceiveBeginPlay' ref from Metadata '/Game/62070047/Wall_BP.PackageMetaData'
+[2021.11.10-08.44.58:273][614]LogMetaData: Removing '/Game/62070047/Blueprints/Wall_BP.SKEL_Wall_BP_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/62070047/Wall_BP.PackageMetaData'
+[2021.11.10-08.44.58:273][614]LogMetaData: Removing '/Game/62070047/Blueprints/Wall_BP.SKEL_Wall_BP_C:ReceiveTick' ref from Metadata '/Game/62070047/Wall_BP.PackageMetaData'
+[2021.11.10-08.44.58:273][614]LogMetaData: Removing '/Game/62070047/Blueprints/Wall_BP.SKEL_Wall_BP_C:UserConstructionScript' ref from Metadata '/Game/62070047/Wall_BP.PackageMetaData'
+[2021.11.10-08.44.58:273][614]LogMetaData: Removing '/Game/62070047/Blueprints/Wall_BP.SKEL_Wall_BP_C' ref from Metadata '/Game/62070047/Wall_BP.PackageMetaData'
+[2021.11.10-08.44.58:297][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/62070047/Blueprints/Floor_BP" FILE="C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Blueprints/Floor_BP.uasset" SILENT=true
+[2021.11.10-08.44.58:302][614]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Floor_BP3EEB035B4A710B956926EF8A799F30AE.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Blueprints/Floor_BP.uasset'
+[2021.11.10-08.44.58:303][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/62070047/Floor_BP" FILE="C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Floor_BP.uasset" SILENT=true
+[2021.11.10-08.44.58:303][614]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Floor_BP9025E28A447716414FC39289436382C6.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Floor_BP.uasset'
+[2021.11.10-08.44.58:314][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/62070047/Blueprints/FireBall_BP" FILE="C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Blueprints/FireBall_BP.uasset" SILENT=true
+[2021.11.10-08.44.58:325][614]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/FireBall_BP8413274D4D3001D97855EB8D3EBB114D.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Blueprints/FireBall_BP.uasset'
+[2021.11.10-08.44.58:325][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/62070047/Blueprints/Wall_BP" FILE="C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Blueprints/Wall_BP.uasset" SILENT=true
+[2021.11.10-08.44.58:329][614]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Wall_BPE9AC145D4BE58B9ECD5BA693F4DE4856.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Blueprints/Wall_BP.uasset'
+[2021.11.10-08.44.58:331][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/62070047/Wall_BP" FILE="C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Wall_BP.uasset" SILENT=true
+[2021.11.10-08.44.58:331][614]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Wall_BPF13DEAE047E4563D082EB5AE10AC807F.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Wall_BP.uasset'
+[2021.11.10-08.44.58:404][614]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2021.11.10-08.44.58:439][614]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2021.11.10-08.44.58:465][614]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.11.10-08.44.58:491][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/62070047/MainChar" FILE="C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/MainChar.uasset" SILENT=true
+[2021.11.10-08.44.58:509][614]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/MainCharE73A94D64E1AE5BE53DD129C2A1217A5.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/MainChar.uasset'
+[2021.11.10-08.44.58:561][614]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.10-08.44.58:561][614]LogContentValidation: Display: Validating Blueprint /Game/62070047/Blueprints/Wall_BP.Wall_BP
+[2021.11.10-08.44.58:561][614]LogContentValidation: Display: Validating Blueprint /Game/62070047/MainChar.MainChar
+[2021.11.10-08.44.58:561][614]LogContentValidation: Display: Validating Blueprint /Game/62070047/Blueprints/FireBall_BP.FireBall_BP
+[2021.11.10-08.44.58:561][614]LogContentValidation: Display: Validating Blueprint /Game/62070047/Blueprints/Floor_BP.Floor_BP
+[2021.11.10-08.44.58:561][614]LogContentValidation: Display: Validating ObjectRedirector /Game/62070047/Wall_BP.Wall_BP
+[2021.11.10-08.44.58:561][614]LogContentValidation: Display: Validating ObjectRedirector /Game/62070047/Wall_BP.Default__Wall_BP_C
+[2021.11.10-08.44.58:561][614]LogContentValidation: Display: Validating ObjectRedirector /Game/62070047/Wall_BP.Wall_BP_C
+[2021.11.10-08.44.58:561][614]LogContentValidation: Display: Validating ObjectRedirector /Game/62070047/Floor_BP.Floor_BP
+[2021.11.10-08.44.58:561][614]LogContentValidation: Display: Validating ObjectRedirector /Game/62070047/Floor_BP.Default__Floor_BP_C
+[2021.11.10-08.44.58:561][614]LogContentValidation: Display: Validating ObjectRedirector /Game/62070047/Floor_BP.Floor_BP_C
+[2021.11.10-08.45.07:437][650]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.11.10-08.45.07:461][650]LogContentBrowser: Creating deferred item: NewFolder
+[2021.11.10-08.45.10:918][ 64]LogContentBrowser: Attempting asset rename: NewFolder -> Skill
+[2021.11.10-08.45.10:918][ 64]LogContentBrowser: End creating deferred item NewFolder
+[2021.11.10-08.45.18:686][951]LogContentBrowser: Attempting asset rename: Skill -> Skill_BP
+[2021.11.10-08.45.21:543][274]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.11.10-08.45.21:566][274]LogContentBrowser: Creating deferred item: NewFolder
+[2021.11.10-08.45.30:951][398]LogContentBrowser: Attempting asset rename: NewFolder -> Block_BP
+[2021.11.10-08.45.30:951][398]LogContentBrowser: End creating deferred item NewFolder
+[2021.11.10-08.45.37:031][116]LogMetaData: Removing '/Game/62070047/Blueprints/Skill_BP/FireBall_BP.FireBall_BP_C' ref from Metadata '/Game/62070047/Blueprints/FireBall_BP.PackageMetaData'
+[2021.11.10-08.45.37:031][116]LogMetaData: Removing '/Game/62070047/Blueprints/Skill_BP/FireBall_BP.FireBall_BP_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/62070047/Blueprints/FireBall_BP.PackageMetaData'
+[2021.11.10-08.45.37:031][116]LogMetaData: Removing '/Game/62070047/Blueprints/Skill_BP/FireBall_BP.FireBall_BP_C:ReceiveBeginPlay' ref from Metadata '/Game/62070047/Blueprints/FireBall_BP.PackageMetaData'
+[2021.11.10-08.45.37:031][116]LogMetaData: Removing '/Game/62070047/Blueprints/Skill_BP/FireBall_BP.SKEL_FireBall_BP_C' ref from Metadata '/Game/62070047/Blueprints/FireBall_BP.PackageMetaData'
+[2021.11.10-08.45.37:031][116]LogMetaData: Removing '/Game/62070047/Blueprints/Skill_BP/FireBall_BP.SKEL_FireBall_BP_C:ReceiveBeginPlay' ref from Metadata '/Game/62070047/Blueprints/FireBall_BP.PackageMetaData'
+[2021.11.10-08.45.37:031][116]LogMetaData: Removing '/Game/62070047/Blueprints/Skill_BP/FireBall_BP.SKEL_FireBall_BP_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/62070047/Blueprints/FireBall_BP.PackageMetaData'
+[2021.11.10-08.45.37:031][116]LogMetaData: Removing '/Game/62070047/Blueprints/Skill_BP/FireBall_BP.SKEL_FireBall_BP_C:ReceiveTick' ref from Metadata '/Game/62070047/Blueprints/FireBall_BP.PackageMetaData'
+[2021.11.10-08.45.37:031][116]LogMetaData: Removing '/Game/62070047/Blueprints/Skill_BP/FireBall_BP.SKEL_FireBall_BP_C:UserConstructionScript' ref from Metadata '/Game/62070047/Blueprints/FireBall_BP.PackageMetaData'
+[2021.11.10-08.45.37:031][116]LogMetaData: Removing '/Game/62070047/Blueprints/Skill_BP/FireBall_BP.FireBall_BP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/62070047/Blueprints/FireBall_BP.PackageMetaData'
+[2021.11.10-08.45.37:031][116]LogMetaData: Removing '/Game/62070047/Blueprints/Skill_BP/FireBall_BP.FireBall_BP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/62070047/Blueprints/FireBall_BP.PackageMetaData'
+[2021.11.10-08.45.37:031][116]LogMetaData: Removing '/Game/62070047/Blueprints/Skill_BP/FireBall_BP.FireBall_BP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/62070047/Blueprints/FireBall_BP.PackageMetaData'
+[2021.11.10-08.45.37:031][116]LogMetaData: Removing '/Game/62070047/Blueprints/Skill_BP/FireBall_BP.FireBall_BP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/62070047/Blueprints/FireBall_BP.PackageMetaData'
+[2021.11.10-08.45.37:065][116]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/FireBall_BP18CDE87042B0E15BC5960A86F9688506.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Blueprints/Skill_BP/FireBall_BP.uasset'
+[2021.11.10-08.45.37:146][116]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2021.11.10-08.45.37:180][116]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2021.11.10-08.45.37:206][116]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.11.10-08.45.37:226][116]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/62070047/MainChar" FILE="C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/MainChar.uasset" SILENT=true
+[2021.11.10-08.45.37:240][116]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/MainCharDE50B94546D014D8E94EF59C8A0CCC0D.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/MainChar.uasset'
+[2021.11.10-08.45.37:284][116]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.10-08.45.37:284][116]LogContentValidation: Display: Validating Blueprint /Game/62070047/MainChar.MainChar
+[2021.11.10-08.45.37:284][116]LogContentValidation: Display: Validating Blueprint /Game/62070047/Blueprints/Skill_BP/FireBall_BP.FireBall_BP
+[2021.11.10-08.45.40:164][452]LogMetaData: Removing '/Game/62070047/Blueprints/Block_BP/Floor_BP.Floor_BP_C' ref from Metadata '/Game/62070047/Blueprints/Floor_BP.PackageMetaData'
+[2021.11.10-08.45.40:164][452]LogMetaData: Removing '/Game/62070047/Blueprints/Block_BP/Floor_BP.SKEL_Floor_BP_C' ref from Metadata '/Game/62070047/Blueprints/Floor_BP.PackageMetaData'
+[2021.11.10-08.45.40:164][452]LogMetaData: Removing '/Game/62070047/Blueprints/Block_BP/Floor_BP.SKEL_Floor_BP_C:ReceiveBeginPlay' ref from Metadata '/Game/62070047/Blueprints/Floor_BP.PackageMetaData'
+[2021.11.10-08.45.40:164][452]LogMetaData: Removing '/Game/62070047/Blueprints/Block_BP/Floor_BP.SKEL_Floor_BP_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/62070047/Blueprints/Floor_BP.PackageMetaData'
+[2021.11.10-08.45.40:164][452]LogMetaData: Removing '/Game/62070047/Blueprints/Block_BP/Floor_BP.SKEL_Floor_BP_C:ReceiveTick' ref from Metadata '/Game/62070047/Blueprints/Floor_BP.PackageMetaData'
+[2021.11.10-08.45.40:164][452]LogMetaData: Removing '/Game/62070047/Blueprints/Block_BP/Floor_BP.SKEL_Floor_BP_C:BndEvt__Floor_BP_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/62070047/Blueprints/Floor_BP.PackageMetaData'
+[2021.11.10-08.45.40:164][452]LogMetaData: Removing '/Game/62070047/Blueprints/Block_BP/Floor_BP.SKEL_Floor_BP_C:UserConstructionScript' ref from Metadata '/Game/62070047/Blueprints/Floor_BP.PackageMetaData'
+[2021.11.10-08.45.40:164][452]LogMetaData: Removing '/Game/62070047/Blueprints/Block_BP/Floor_BP.Floor_BP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/62070047/Blueprints/Floor_BP.PackageMetaData'
+[2021.11.10-08.45.40:164][452]LogMetaData: Removing '/Game/62070047/Blueprints/Block_BP/Floor_BP.Floor_BP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/62070047/Blueprints/Floor_BP.PackageMetaData'
+[2021.11.10-08.45.40:164][452]LogMetaData: Removing '/Game/62070047/Blueprints/Block_BP/Floor_BP.Floor_BP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/62070047/Blueprints/Floor_BP.PackageMetaData'
+[2021.11.10-08.45.40:164][452]LogMetaData: Removing '/Game/62070047/Blueprints/Block_BP/Floor_BP.Floor_BP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/62070047/Blueprints/Floor_BP.PackageMetaData'
+[2021.11.10-08.45.40:164][452]LogMetaData: Removing '/Game/62070047/Blueprints/Block_BP/Floor_BP.Floor_BP:OnHitFloor.K2Node_FunctionEntry_0' ref from Metadata '/Game/62070047/Blueprints/Floor_BP.PackageMetaData'
+[2021.11.10-08.45.40:165][452]LogMetaData: Removing '/Game/62070047/Blueprints/Block_BP/Wall_BP.Wall_BP_C' ref from Metadata '/Game/62070047/Blueprints/Wall_BP.PackageMetaData'
+[2021.11.10-08.45.40:165][452]LogMetaData: Removing '/Game/62070047/Blueprints/Block_BP/Wall_BP.SKEL_Wall_BP_C' ref from Metadata '/Game/62070047/Blueprints/Wall_BP.PackageMetaData'
+[2021.11.10-08.45.40:165][452]LogMetaData: Removing '/Game/62070047/Blueprints/Block_BP/Wall_BP.SKEL_Wall_BP_C:ReceiveBeginPlay' ref from Metadata '/Game/62070047/Blueprints/Wall_BP.PackageMetaData'
+[2021.11.10-08.45.40:165][452]LogMetaData: Removing '/Game/62070047/Blueprints/Block_BP/Wall_BP.SKEL_Wall_BP_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/62070047/Blueprints/Wall_BP.PackageMetaData'
+[2021.11.10-08.45.40:165][452]LogMetaData: Removing '/Game/62070047/Blueprints/Block_BP/Wall_BP.SKEL_Wall_BP_C:ReceiveTick' ref from Metadata '/Game/62070047/Blueprints/Wall_BP.PackageMetaData'
+[2021.11.10-08.45.40:165][452]LogMetaData: Removing '/Game/62070047/Blueprints/Block_BP/Wall_BP.SKEL_Wall_BP_C:UserConstructionScript' ref from Metadata '/Game/62070047/Blueprints/Wall_BP.PackageMetaData'
+[2021.11.10-08.45.40:165][452]LogMetaData: Removing '/Game/62070047/Blueprints/Block_BP/Wall_BP.Wall_BP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/62070047/Blueprints/Wall_BP.PackageMetaData'
+[2021.11.10-08.45.40:165][452]LogMetaData: Removing '/Game/62070047/Blueprints/Block_BP/Wall_BP.Wall_BP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/62070047/Blueprints/Wall_BP.PackageMetaData'
+[2021.11.10-08.45.40:165][452]LogMetaData: Removing '/Game/62070047/Blueprints/Block_BP/Wall_BP.Wall_BP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/62070047/Blueprints/Wall_BP.PackageMetaData'
+[2021.11.10-08.45.40:166][452]LogMetaData: Removing '/Game/62070047/Blueprints/Block_BP/Wall_BP.Wall_BP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/62070047/Blueprints/Wall_BP.PackageMetaData'
+[2021.11.10-08.45.40:184][452]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Floor_BP6C0133CB4B6217117AC99E98A60EBB53.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Blueprints/Block_BP/Floor_BP.uasset'
+[2021.11.10-08.45.40:188][452]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Wall_BP8E6A7E4742A3470E3E3B3EBE382874A5.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Blueprints/Block_BP/Wall_BP.uasset'
+[2021.11.10-08.45.40:275][452]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2021.11.10-08.45.40:303][452]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.11.10-08.45.40:337][452]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2021.11.10-08.45.40:371][452]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2021.11.10-08.45.40:392][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/62070047/Floor_BP" FILE="C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Floor_BP.uasset" SILENT=true
+[2021.11.10-08.45.40:393][452]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Floor_BP76B7CEF242C6AB8E75EC17953F0194A6.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Floor_BP.uasset'
+[2021.11.10-08.45.40:413][452]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/FireBall_BP5A8E9EDF448019F32FFAB6BDAC9E97F9.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Blueprints/Skill_BP/FireBall_BP.uasset'
+[2021.11.10-08.45.40:414][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/62070047/Wall_BP" FILE="C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Wall_BP.uasset" SILENT=true
+[2021.11.10-08.45.40:414][452]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Wall_BP1EDF722F4EFBC006BCA2838F84108AEC.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Wall_BP.uasset'
+[2021.11.10-08.45.40:461][452]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.10-08.45.40:461][452]LogContentValidation: Display: Validating Blueprint /Game/62070047/Blueprints/Block_BP/Wall_BP.Wall_BP
+[2021.11.10-08.45.40:461][452]LogContentValidation: Display: Validating Blueprint /Game/62070047/Blueprints/Skill_BP/FireBall_BP.FireBall_BP
+[2021.11.10-08.45.40:461][452]LogContentValidation: Display: Validating Blueprint /Game/62070047/Blueprints/Block_BP/Floor_BP.Floor_BP
+[2021.11.10-08.45.40:461][452]LogContentValidation: Display: Validating ObjectRedirector /Game/62070047/Wall_BP.Wall_BP
+[2021.11.10-08.45.40:461][452]LogContentValidation: Display: Validating ObjectRedirector /Game/62070047/Wall_BP.Default__Wall_BP_C
+[2021.11.10-08.45.40:461][452]LogContentValidation: Display: Validating ObjectRedirector /Game/62070047/Wall_BP.Wall_BP_C
+[2021.11.10-08.45.40:461][452]LogContentValidation: Display: Validating ObjectRedirector /Game/62070047/Floor_BP.Floor_BP
+[2021.11.10-08.45.40:461][452]LogContentValidation: Display: Validating ObjectRedirector /Game/62070047/Floor_BP.Default__Floor_BP_C
+[2021.11.10-08.45.40:461][452]LogContentValidation: Display: Validating ObjectRedirector /Game/62070047/Floor_BP.Floor_BP_C
+[2021.11.10-08.45.43:664][826]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2021.11.10-08.45.43:673][826]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Test_map8CBD2CE44885A6FEB046A3A2DCD63B32.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Maps/Test_map.umap'
+[2021.11.10-08.45.43:684][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/62070047/Maps/Test_map_BuiltData" FILE="C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Maps/Test_map_BuiltData.uasset" SILENT=true
+[2021.11.10-08.45.43:700][826]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Test_map_BuiltData94339D294F8039FF180138B63B8C5497.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Maps/Test_map_BuiltData.uasset'
+[2021.11.10-08.45.43:710][826]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.10-08.45.43:711][826]LogContentValidation: Display: Validating World /Game/62070047/Maps/Test_map.Test_map
+[2021.11.10-08.45.43:711][826]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/62070047/Maps/Test_map_BuiltData.Test_map_BuiltData
+[2021.11.10-08.46.03:477][189]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.10-08.46.04:398][295]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.10-08.46.05:243][394]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.10-08.46.05:725][450]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.10-08.46.07:321][638]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MERGED_Floor5)
+[2021.11.10-08.46.08:837][811]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.10-08.46.10:317][983]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MERGED_Floor5)
+[2021.11.10-08.46.11:195][ 82]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MERGED_Floor5)
+[2021.11.10-08.46.11:456][112]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2021.11.10-08.46.12:479][229]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.10-08.46.20:752][190]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.11.10-08.46.20:771][190]LogContentBrowser: Creating deferred item: NewFolder
+[2021.11.10-08.46.27:034][931]LogContentBrowser: Attempting asset rename: NewFolder -> Monster
+[2021.11.10-08.46.27:034][931]LogContentBrowser: End creating deferred item NewFolder
+[2021.11.10-08.46.32:657][559]LogContentBrowser: Attempting asset rename: Monster -> Monster_BP
+[2021.11.10-08.50.14:701][508]BlueprintLog: New page: Compile FireBall_BP
+[2021.11.10-08.50.14:756][508]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2021.11.10-08.50.44:243][378]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/FireBall_BPE2AE82AA4D2B456439181C85CBED817A.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Blueprints/Skill_BP/FireBall_BP.uasset'
+[2021.11.10-08.50.44:258][378]AssetCheck: New page: Asset Save: FireBall_BP
+[2021.11.10-08.50.44:258][378]LogContentValidation: Display: Validating Blueprint /Game/62070047/Blueprints/Skill_BP/FireBall_BP.FireBall_BP
+[2021.11.10-08.50.45:194][461]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/FireBall_BP3476E498486793372FBF7483AA3C00AD.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Blueprints/Skill_BP/FireBall_BP.uasset'
+[2021.11.10-08.50.45:209][461]AssetCheck: New page: Asset Save: FireBall_BP
+[2021.11.10-08.50.45:209][461]LogContentValidation: Display: Validating Blueprint /Game/62070047/Blueprints/Skill_BP/FireBall_BP.FireBall_BP
+[2021.11.10-08.50.49:513][918]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.10-08.50.50:073][981]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.10-08.50.50:793][ 65]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.10-08.50.52:633][281]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.10-08.50.52:944][317]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MERGED_Floor5)
+[2021.11.10-08.50.53:497][377]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MERGED_Floor5)
+[2021.11.10-08.50.53:933][428]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MERGED_Floor5)
+[2021.11.10-08.50.54:507][494]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.10-08.50.55:355][591]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MERGED_Floor5)
+[2021.11.10-08.50.56:023][665]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MERGED_Floor5)
+[2021.11.10-08.50.56:539][725]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.10-08.51.16:667][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2021.11.10-08.51.16:680][ 78]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Test_map790D6B22463B32DCF48B779B7A81115F.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Maps/Test_map.umap'
+[2021.11.10-08.51.16:694][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/62070047/Maps/Test_map_BuiltData" FILE="C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Maps/Test_map_BuiltData.uasset" SILENT=true
+[2021.11.10-08.51.16:713][ 78]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Test_map_BuiltData6BA0E45C49728C6DD0FB5B81508B5162.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Maps/Test_map_BuiltData.uasset'
+[2021.11.10-08.51.16:726][ 78]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.10-08.51.16:726][ 78]LogContentValidation: Display: Validating World /Game/62070047/Maps/Test_map.Test_map
+[2021.11.10-08.51.16:726][ 78]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/62070047/Maps/Test_map_BuiltData.Test_map_BuiltData
+[2021.11.10-08.51.22:931][564]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.11.10-08.51.22:947][564]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2021.11.10-08.51.22:956][564]LogContentBrowser: Creating deferred item: NewBlueprint
+[2021.11.10-08.51.32:195][652]LogContentBrowser: Attempting asset rename: NewBlueprint -> Spider_BP
+[2021.11.10-08.51.32:200][652]LogContentBrowser: End creating deferred item NewBlueprint
+[2021.11.10-08.51.38:788][291]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.11.10-08.51.38:796][291]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2021.11.10-08.51.38:810][291]LogContentBrowser: Creating deferred item: NewBlueprint
+[2021.11.10-08.52.03:413][189]LogContentBrowser: Attempting asset rename: NewBlueprint -> Skeleton_BP
+[2021.11.10-08.52.03:417][189]LogContentBrowser: End creating deferred item NewBlueprint
+[2021.11.10-08.52.09:322][592]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.11.10-08.52.09:330][592]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2021.11.10-08.52.09:342][592]LogContentBrowser: Creating deferred item: NewBlueprint
+[2021.11.10-08.52.18:066][622]LogContentBrowser: Attempting asset rename: NewBlueprint -> Zombie_BP
+[2021.11.10-08.52.18:069][622]LogContentBrowser: End creating deferred item NewBlueprint
+[2021.11.10-08.52.21:463][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2021.11.10-08.52.21:475][ 10]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Test_mapC5EC1A864D274ACB0E55B294B3EE8E63.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Maps/Test_map.umap'
+[2021.11.10-08.52.21:488][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/62070047/Maps/Test_map_BuiltData" FILE="C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Maps/Test_map_BuiltData.uasset" SILENT=true
+[2021.11.10-08.52.21:505][ 10]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Test_map_BuiltData0C7F85284D0B7F18ECDABB82AE16E41B.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Maps/Test_map_BuiltData.uasset'
+[2021.11.10-08.52.21:518][ 10]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.10-08.52.21:518][ 10]LogContentValidation: Display: Validating World /Game/62070047/Maps/Test_map.Test_map
+[2021.11.10-08.52.21:518][ 10]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/62070047/Maps/Test_map_BuiltData.Test_map_BuiltData
+[2021.11.10-08.52.23:184][199]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Skeleton_BP9DAE1C0C4811211506EDB9B1AD4B6119.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Blueprints/Monster_BP/Skeleton_BP.uasset'
+[2021.11.10-08.52.23:199][199]AssetCheck: New page: Asset Save: Skeleton_BP
+[2021.11.10-08.52.23:199][199]LogContentValidation: Display: Validating Blueprint /Game/62070047/Blueprints/Monster_BP/Skeleton_BP.Skeleton_BP
+[2021.11.10-08.52.23:795][266]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Skeleton_BPFC93E9A54758C768542725AD45905961.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Blueprints/Monster_BP/Skeleton_BP.uasset'
+[2021.11.10-08.52.23:800][266]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Spider_BP38DF8AA74132612DA85498A1C33494BF.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Blueprints/Monster_BP/Spider_BP.uasset'
+[2021.11.10-08.52.23:813][266]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.10-08.52.23:813][266]LogContentValidation: Display: Validating Blueprint /Game/62070047/Blueprints/Monster_BP/Skeleton_BP.Skeleton_BP
+[2021.11.10-08.52.23:813][266]LogContentValidation: Display: Validating Blueprint /Game/62070047/Blueprints/Monster_BP/Spider_BP.Spider_BP
+[2021.11.10-08.52.24:530][347]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Skeleton_BPFEDE2BE54A709CEE71A4DA8F84CB5F63.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Blueprints/Monster_BP/Skeleton_BP.uasset'
+[2021.11.10-08.52.24:534][347]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Spider_BP0957BE214C187EEBA404D69921D36067.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Blueprints/Monster_BP/Spider_BP.uasset'
+[2021.11.10-08.52.24:540][347]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Zombie_BP697B6AEC41D1AFCE4359069187DEA185.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Blueprints/Monster_BP/Zombie_BP.uasset'
+[2021.11.10-08.52.24:556][347]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.10-08.52.24:556][347]LogContentValidation: Display: Validating Blueprint /Game/62070047/Blueprints/Monster_BP/Zombie_BP.Zombie_BP
+[2021.11.10-08.52.24:556][347]LogContentValidation: Display: Validating Blueprint /Game/62070047/Blueprints/Monster_BP/Skeleton_BP.Skeleton_BP
+[2021.11.10-08.52.24:556][347]LogContentValidation: Display: Validating Blueprint /Game/62070047/Blueprints/Monster_BP/Spider_BP.Spider_BP
+[2021.11.10-08.52.26:980][628]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/62070047/Blueprints/Monster_BP/Skeleton_BP.Skeleton_BP
+[2021.11.10-08.52.59:170][612]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Skeleton_BP6C2CCC044C10143EF5FA058100CDD955.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Blueprints/Monster_BP/Skeleton_BP.uasset'
+[2021.11.10-08.52.59:183][612]AssetCheck: New page: Asset Save: Skeleton_BP
+[2021.11.10-08.52.59:183][612]LogContentValidation: Display: Validating Blueprint /Game/62070047/Blueprints/Monster_BP/Skeleton_BP.Skeleton_BP
+[2021.11.10-08.55.00:073][766]LogDirectoryWatcher: Display: A directory notification failed for 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2021.11.10-08.55.00:073][766]LogDirectoryWatcher: Display: A directory notification failed for 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/Developers/BBIG/Collections/' because it could not be accessed. Aborting watch request...
+[2021.11.10-08.55.00:073][766]LogDirectoryWatcher: Display: A directory notification failed for 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2021.11.10-09.02.39:781][874]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.10-09.02.40:606][963]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.10-09.02.41:911][113]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
