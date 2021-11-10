@@ -3156,3 +3156,283 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.11.10-06.29.57:869][279]OBJ SavePackage: Finished generating thumbnails for package [/Game/62070047/FireBall_BP]
 [2021.11.10-06.29.57:881][279]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/FireBall_BP_Auto4799206CD4D0EA41D6B56229C64FA9227.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Autosaves/Game/62070047/FireBall_BP_Auto4.uasset'
 [2021.11.10-06.29.57:881][279]LogFileHelpers: Auto-saving content packages took 0.035
+[2021.11.10-06.35.56:707][126]LogRenderer: Reallocating scene render targets to support 952x600 Format 10 NumSamples 1 (Frame:578716).
+[2021.11.10-06.35.56:737][127]LogRenderer: Reallocating scene render targets to support 956x600 Format 10 NumSamples 1 (Frame:578718).
+[2021.11.10-06.35.56:764][128]LogRenderer: Reallocating scene render targets to support 976x600 Format 10 NumSamples 1 (Frame:578720).
+[2021.11.10-06.35.56:795][129]LogRenderer: Reallocating scene render targets to support 996x600 Format 10 NumSamples 1 (Frame:578722).
+[2021.11.10-06.35.56:826][130]LogRenderer: Reallocating scene render targets to support 1024x600 Format 10 NumSamples 1 (Frame:578724).
+[2021.11.10-06.35.56:854][131]LogRenderer: Reallocating scene render targets to support 1048x600 Format 10 NumSamples 1 (Frame:578726).
+[2021.11.10-06.35.56:885][132]LogRenderer: Reallocating scene render targets to support 1056x600 Format 10 NumSamples 1 (Frame:578728).
+[2021.11.10-06.35.59:442][412]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.10-06.35.59:447][412]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.10-06.35.59:447][412]PIE: New page: PIE session: Test_map (Nov 10, 2021, 8:35:59 PM)
+[2021.11.10-06.35.59:447][412]LogPlayLevel: Creating play world package: /Game/62070047/UEDPIE_0_Test_map
+[2021.11.10-06.35.59:452][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004690s)
+[2021.11.10-06.35.59:453][412]LogAIModule: Creating AISystem for world Test_map
+[2021.11.10-06.35.59:454][412]LogPlayLevel: PIE: World Init took: (0.001634s)
+[2021.11.10-06.35.59:454][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/62070047/Test_map.Test_map to /Game/62070047/UEDPIE_0_Test_map.Test_map (0.006479s)
+[2021.11.10-06.35.59:488][412]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2021.11.10-06.35.59:492][412]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2021.11.10-06.35.59:492][412]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.10-06.35.59:492][412]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.10-06.35.59:492][412]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.10-06.35.59:492][412]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.10-06.35.59:492][412]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.10-06.35.59:492][412]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.10-06.35.59:492][412]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.10-06.35.59:492][412]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.10-06.35.59:493][412]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.10-06.35.59:493][412]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.10-06.35.59:496][412]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.10-06.35.59:496][412]LogAudioMixer: Display: 1: FrontRight
+[2021.11.10-06.35.59:509][412]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2021.11.10-06.35.59:509][412]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.10-06.35.59:509][412]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.10-06.35.59:509][412]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.10-06.35.59:510][412]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.10-06.35.59:510][412]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.10-06.35.59:510][412]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.10-06.35.59:526][412]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.10-06.35.59:526][412]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.10-06.35.59:526][412]LogInit: FAudioDevice initialized.
+[2021.11.10-06.35.59:526][412]LogAudio: Display: Audio Device (ID: 38) registered with world 'Test_map'.
+[2021.11.10-06.35.59:533][412]LogLoad: Game class is 'MainGameMode_C'
+[2021.11.10-06.35.59:534][412]LogWorld: Bringing World /Game/62070047/UEDPIE_0_Test_map.Test_map up for play (max tick rate 0) at 2021.11.10-13.35.59
+[2021.11.10-06.35.59:534][412]LogWorld: Bringing up level for play took: 0.000561
+[2021.11.10-06.35.59:534][412]LogOnline: OSS: Creating online subsystem instance for: :Context_55
+[2021.11.10-06.35.59:538][412]PIE: Server logged in
+[2021.11.10-06.35.59:538][412]PIE: Play in editor total start time 0.093 seconds.
+[2021.11.10-06.36.47:786][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.10-06.36.47:786][175]LogWorld: BeginTearingDown for /Game/62070047/UEDPIE_0_Test_map
+[2021.11.10-06.36.47:786][175]LogWorld: UWorld::CleanupWorld for Test_map, bSessionEnded=true, bCleanupResources=true
+[2021.11.10-06.36.47:786][175]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.10-06.36.47:792][175]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.10-06.36.47:803][175]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.10-06.36.47:833][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.10-06.36.47:833][175]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.10-06.36.47:834][175]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.10-06.36.47:854][175]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2021.11.10-06.36.47:894][176]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2021.11.10-06.50.56:991][515]BlueprintLog: New page: Compile FireBall_BP
+[2021.11.10-06.50.57:054][515]LogUObjectHash: Compacting FUObjectHashTables data took   4.54ms
+[2021.11.10-06.51.19:835][960]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor5)
+[2021.11.10-06.51.35:115][677]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor5)
+[2021.11.10-06.51.45:014][825]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Engine/MapTemplates/SM_Template_Map_Floor.SM_Template_Map_Floor
+[2021.11.10-06.51.46:537][826]LogRenderer: Reallocating scene render targets to support 1056x752 Format 10 NumSamples 1 (Frame:1).
+[2021.11.10-06.52.04:784][393]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2021.11.10-06.52.04:784][393]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.10-06.52.19:574][971]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.11.10-06.52.19:574][971]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.11.10-06.52.19:574][971]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.10-06.52.23:903][407]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.10-06.52.23:908][407]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.10-06.52.23:908][407]PIE: New page: PIE session: Test_map (Nov 10, 2021, 8:52:23 PM)
+[2021.11.10-06.52.23:943][407]LogPlayLevel: Creating play world package: /Game/62070047/UEDPIE_0_Test_map
+[2021.11.10-06.52.23:945][407]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002296s)
+[2021.11.10-06.52.23:947][407]LogAIModule: Creating AISystem for world Test_map
+[2021.11.10-06.52.23:947][407]LogPlayLevel: PIE: World Init took: (0.001653s)
+[2021.11.10-06.52.23:947][407]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/62070047/Test_map.Test_map to /Game/62070047/UEDPIE_0_Test_map.Test_map (0.004208s)
+[2021.11.10-06.52.24:056][407]LogUObjectHash: Compacting FUObjectHashTables data took   5.30ms
+[2021.11.10-06.52.24:064][407]LogAudio: Display: Creating Audio Device:                 Id: 39, Scope: Unique, Realtime: True
+[2021.11.10-06.52.24:064][407]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.10-06.52.24:064][407]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.10-06.52.24:064][407]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.10-06.52.24:064][407]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.10-06.52.24:064][407]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.10-06.52.24:064][407]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.10-06.52.24:064][407]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.10-06.52.24:064][407]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.10-06.52.24:064][407]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.10-06.52.24:064][407]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.10-06.52.24:067][407]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.10-06.52.24:067][407]LogAudioMixer: Display: 1: FrontRight
+[2021.11.10-06.52.24:081][407]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2021.11.10-06.52.24:081][407]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.10-06.52.24:081][407]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.10-06.52.24:081][407]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.10-06.52.24:081][407]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.10-06.52.24:081][407]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.10-06.52.24:081][407]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.10-06.52.24:096][407]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.10-06.52.24:096][407]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.10-06.52.24:096][407]LogInit: FAudioDevice initialized.
+[2021.11.10-06.52.24:096][407]LogAudio: Display: Audio Device (ID: 39) registered with world 'Test_map'.
+[2021.11.10-06.52.24:102][407]LogLoad: Game class is 'MainGameMode_C'
+[2021.11.10-06.52.24:103][407]LogWorld: Bringing World /Game/62070047/UEDPIE_0_Test_map.Test_map up for play (max tick rate 0) at 2021.11.10-13.52.24
+[2021.11.10-06.52.24:103][407]LogWorld: Bringing up level for play took: 0.000513
+[2021.11.10-06.52.24:103][407]LogOnline: OSS: Creating online subsystem instance for: :Context_57
+[2021.11.10-06.52.24:107][407]PIE: Server logged in
+[2021.11.10-06.52.24:107][407]PIE: Play in editor total start time 0.201 seconds.
+[2021.11.10-06.53.29:354][220]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.10-06.53.29:354][220]LogWorld: BeginTearingDown for /Game/62070047/UEDPIE_0_Test_map
+[2021.11.10-06.53.29:354][220]LogWorld: UWorld::CleanupWorld for Test_map, bSessionEnded=true, bCleanupResources=true
+[2021.11.10-06.53.29:355][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.10-06.53.29:366][220]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.10-06.53.29:386][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.10-06.53.29:416][220]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.10-06.53.29:416][220]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.10-06.53.29:418][220]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.10-06.53.29:441][220]LogUObjectHash: Compacting FUObjectHashTables data took   4.57ms
+[2021.11.10-06.53.29:487][221]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2021.11.10-06.54.11:728][921]LogSlate: Window 'Create Merged Actor' being destroyed
+[2021.11.10-06.54.11:860][921]LogStaticMesh: Building static mesh SM_MERGED_Floor5...
+[2021.11.10-06.54.11:935][921]LogStaticMesh: Built static mesh [0.07s] /Game/SM_MERGED_Floor5.SM_MERGED_Floor5
+[2021.11.10-06.54.17:444][529]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/62070047/SM_MERGED_Floor5" FILE="C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/SM_MERGED_Floor5.uasset" SILENT=true
+[2021.11.10-06.54.17:463][529]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/SM_MERGED_Floor5537B7BB24E529200E78B03939759C441.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/SM_MERGED_Floor5.uasset'
+[2021.11.10-06.54.17:546][529]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2021.11.10-06.54.17:599][529]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2021.11.10-06.54.17:631][529]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2021.11.10-06.54.17:672][529]AssetCheck: New page: Asset Save: SM_MERGED_Floor5
+[2021.11.10-06.54.17:672][529]LogContentValidation: Display: Validating StaticMesh /Game/62070047/SM_MERGED_Floor5.SM_MERGED_Floor5
+[2021.11.10-06.54.21:063][883]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2021.11.10-06.54.21:065][883]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/62070047/Test_map' took 0.039
+[2021.11.10-06.54.21:066][883]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/62070047/FireBall_BP] ([1] browsable assets)...
+[2021.11.10-06.54.21:074][883]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/62070047/FireBall_BP.FireBall_BP]
+[2021.11.10-06.54.21:074][883]OBJ SavePackage: Finished generating thumbnails for package [/Game/62070047/FireBall_BP]
+[2021.11.10-06.54.21:083][883]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/FireBall_BP_Auto5BCF8D81A488986490CA4B6B1D76843EA.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Autosaves/Game/62070047/FireBall_BP_Auto5.uasset'
+[2021.11.10-06.54.21:083][883]LogFileHelpers: Auto-saving content packages took 0.018
+[2021.11.10-06.54.21:333][912]LogSlate: Window 'Merge Actors' being destroyed
+[2021.11.10-06.54.21:338][912]LogSlate: Window 'Merge Actors' being destroyed
+[2021.11.10-06.54.28:427][727]LogActorFactory: Actor Factory created SM_MERGED_Floor5
+[2021.11.10-06.54.30:736][999]LogActorFactory: Actor Factory created SM_MERGED_Floor5
+[2021.11.10-06.54.37:859][833]Cmd: DELETE
+[2021.11.10-06.54.37:859][833]Cmd: ACTOR DELETE
+[2021.11.10-06.54.37:860][833]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.10-06.54.37:896][833]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2021.11.10-06.54.37:902][833]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2021.11.10-06.54.42:266][340]Cmd: DELETE
+[2021.11.10-06.54.42:266][340]Cmd: ACTOR DELETE
+[2021.11.10-06.54.42:269][340]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.10-06.54.42:269][340]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.10-06.54.42:269][340]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.10-06.54.42:270][340]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.10-06.54.42:270][340]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.10-06.54.42:307][340]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2021.11.10-06.54.42:310][340]LogEditorActor: Deleted 5 Actors (0.044 secs)
+[2021.11.10-06.54.45:231][673]LogActorFactory: Actor Factory created SM_MERGED_Floor5
+[2021.11.10-06.54.46:437][815]LogActorFactory: Actor Factory created SM_MERGED_Floor5
+[2021.11.10-06.54.47:254][912]LogActorFactory: Actor Factory created SM_MERGED_Floor5
+[2021.11.10-06.55.22:875][951]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.10-06.55.22:880][951]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.11.10-06.55.22:881][951]LogPlayLevel: [PlayLevel] Compiling FireBall_BP before play...
+[2021.11.10-06.55.22:957][951]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
+[2021.11.10-06.55.22:965][951]LogPlayLevel: PlayLevel: Blueprint regeneration took 84 ms (1 blueprints)
+[2021.11.10-06.55.22:966][951]PIE: New page: PIE session: Test_map (Nov 10, 2021, 8:55:22 PM)
+[2021.11.10-06.55.22:966][951]LogPlayLevel: Creating play world package: /Game/62070047/UEDPIE_0_Test_map
+[2021.11.10-06.55.22:967][951]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001788s)
+[2021.11.10-06.55.22:968][951]LogAIModule: Creating AISystem for world Test_map
+[2021.11.10-06.55.22:969][951]LogPlayLevel: PIE: World Init took: (0.001228s)
+[2021.11.10-06.55.22:969][951]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/62070047/Test_map.Test_map to /Game/62070047/UEDPIE_0_Test_map.Test_map (0.003136s)
+[2021.11.10-06.55.23:002][951]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2021.11.10-06.55.23:002][951]LogAudio: Display: Creating Audio Device:                 Id: 40, Scope: Unique, Realtime: True
+[2021.11.10-06.55.23:002][951]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.10-06.55.23:002][951]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.10-06.55.23:002][951]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.10-06.55.23:002][951]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.10-06.55.23:002][951]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.10-06.55.23:002][951]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.10-06.55.23:002][951]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.10-06.55.23:002][951]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.10-06.55.23:003][951]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.10-06.55.23:003][951]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.10-06.55.23:006][951]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.10-06.55.23:006][951]LogAudioMixer: Display: 1: FrontRight
+[2021.11.10-06.55.23:020][951]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2021.11.10-06.55.23:021][951]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.10-06.55.23:021][951]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.10-06.55.23:021][951]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.10-06.55.23:021][951]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.10-06.55.23:021][951]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.10-06.55.23:021][951]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.10-06.55.23:035][951]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.10-06.55.23:035][951]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.10-06.55.23:035][951]LogInit: FAudioDevice initialized.
+[2021.11.10-06.55.23:035][951]LogAudio: Display: Audio Device (ID: 40) registered with world 'Test_map'.
+[2021.11.10-06.55.23:046][951]LogLoad: Game class is 'MainGameMode_C'
+[2021.11.10-06.55.23:046][951]LogWorld: Bringing World /Game/62070047/UEDPIE_0_Test_map.Test_map up for play (max tick rate 0) at 2021.11.10-13.55.23
+[2021.11.10-06.55.23:046][951]LogWorld: Bringing up level for play took: 0.000413
+[2021.11.10-06.55.23:047][951]LogOnline: OSS: Creating online subsystem instance for: :Context_58
+[2021.11.10-06.55.23:050][951]PIE: Server logged in
+[2021.11.10-06.55.23:051][951]PIE: Play in editor total start time 0.171 seconds.
+[2021.11.10-06.56.10:744][659]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.10-06.56.10:744][659]LogWorld: BeginTearingDown for /Game/62070047/UEDPIE_0_Test_map
+[2021.11.10-06.56.10:744][659]LogWorld: UWorld::CleanupWorld for Test_map, bSessionEnded=true, bCleanupResources=true
+[2021.11.10-06.56.10:744][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.10-06.56.10:751][659]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.10-06.56.10:770][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.10-06.56.10:801][659]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.10-06.56.10:801][659]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.10-06.56.10:802][659]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.10-06.56.10:822][659]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2021.11.10-06.56.10:864][660]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2021.11.10-06.56.22:690][630]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.11.10-06.56.22:702][630]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2021.11.10-06.56.22:716][630]LogContentBrowser: Creating deferred item: NewBlueprint
+[2021.11.10-06.57.10:835][579]LogContentBrowser: Attempting asset rename: NewBlueprint -> Floor_BP
+[2021.11.10-06.57.10:841][579]LogContentBrowser: End creating deferred item NewBlueprint
+[2021.11.10-06.57.20:639][989]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.11.10-06.57.20:645][989]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2021.11.10-06.57.20:661][989]LogContentBrowser: Creating deferred item: NewBlueprint
+[2021.11.10-06.57.27:839][831]LogContentBrowser: Attempting asset rename: NewBlueprint -> Wall_BP
+[2021.11.10-06.57.27:842][831]LogContentBrowser: End creating deferred item NewBlueprint
+[2021.11.10-06.57.31:913][192]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/62070047/Floor_BP.Floor_BP
+[2021.11.10-06.58.13:694][795]BlueprintLog: New page: Compile Floor_BP
+[2021.11.10-06.58.13:765][795]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2021.11.10-06.58.51:008][816]Cmd: TRANSACTION UNDO
+[2021.11.10-06.58.51:008][816]LogEditorTransaction: Undo Move Actors
+[2021.11.10-06.58.53:675][ 19]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MERGED_Floor5)
+[2021.11.10-06.58.54:676][ 99]Cmd: TRANSACTION UNDO
+[2021.11.10-06.58.54:676][ 99]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.10-06.58.55:365][128]Cmd: TRANSACTION UNDO
+[2021.11.10-06.58.55:365][128]LogEditorTransaction: Undo Move Actors
+[2021.11.10-06.59.41:733][939]BlueprintLog: New page: Compile Floor_BP
+[2021.11.10-06.59.41:811][939]LogUObjectHash: Compacting FUObjectHashTables data took   4.92ms
+[2021.11.10-06.59.42:378][978]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/62070047/Floor_BP" FILE="C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Floor_BP.uasset" SILENT=true
+[2021.11.10-06.59.42:382][978]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Floor_BP594E0FD048007B8E2D63CABBBA369A38.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Floor_BP.uasset'
+[2021.11.10-06.59.42:401][978]AssetCheck: New page: Asset Save: Floor_BP
+[2021.11.10-06.59.42:401][978]LogContentValidation: Display: Validating Blueprint /Game/62070047/Floor_BP.Floor_BP
+[2021.11.10-07.00.49:006][802]BlueprintLog: New page: Compile Floor_BP
+[2021.11.10-07.00.49:082][802]LogUObjectHash: Compacting FUObjectHashTables data took   5.08ms
+[2021.11.10-07.01.04:932][397]BlueprintLog: New page: Compile Floor_BP
+[2021.11.10-07.01.05:007][397]LogUObjectHash: Compacting FUObjectHashTables data took   4.74ms
+[2021.11.10-07.01.05:451][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/62070047/Floor_BP" FILE="C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Floor_BP.uasset" SILENT=true
+[2021.11.10-07.01.05:457][433]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Floor_BP37FC41344D217F111E889FBD53019F08.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Floor_BP.uasset'
+[2021.11.10-07.01.05:472][433]AssetCheck: New page: Asset Save: Floor_BP
+[2021.11.10-07.01.05:472][433]LogContentValidation: Display: Validating Blueprint /Game/62070047/Floor_BP.Floor_BP
+[2021.11.10-07.01.09:741][860]BlueprintLog: New page: Compile FireBall_BP
+[2021.11.10-07.01.09:806][860]LogUObjectHash: Compacting FUObjectHashTables data took   5.05ms
+[2021.11.10-07.01.10:313][904]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/62070047/FireBall_BP" FILE="C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/FireBall_BP.uasset" SILENT=true
+[2021.11.10-07.01.10:323][904]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/FireBall_BP6B3B921442242834CDBDEABE49838649.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/FireBall_BP.uasset'
+[2021.11.10-07.01.10:338][904]AssetCheck: New page: Asset Save: FireBall_BP
+[2021.11.10-07.01.10:338][904]LogContentValidation: Display: Validating Blueprint /Game/62070047/FireBall_BP.FireBall_BP
+[2021.11.10-07.02.25:338][881]BlueprintLog: New page: Compile Floor_BP
+[2021.11.10-07.02.25:414][881]LogUObjectHash: Compacting FUObjectHashTables data took   4.77ms
+[2021.11.10-07.02.39:488][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/62070047/Floor_BP" FILE="C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Floor_BP.uasset" SILENT=true
+[2021.11.10-07.02.39:494][346]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Floor_BP4F2D4EDE44EF66FA732DD4BF7A0C43E9.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Floor_BP.uasset'
+[2021.11.10-07.02.39:510][346]AssetCheck: New page: Asset Save: Floor_BP
+[2021.11.10-07.02.39:510][346]LogContentValidation: Display: Validating Blueprint /Game/62070047/Floor_BP.Floor_BP
+[2021.11.10-07.03.52:997][741]BlueprintLog: New page: Compile FireBall_BP
+[2021.11.10-07.03.53:005][741]LogBlueprint: Error: [AssetLog] C:\workspace\unreal work area\LitAWiz_GDD2021\LitAWiz_GDD2021\Content\62070047\FireBall_BP.uasset: [Compiler] This blueprint (self) is not a Floor_BP_C, therefore ' Target ' must have a connection.
+[2021.11.10-07.03.53:013][741]LogBlueprint: Error: [AssetLog] C:\workspace\unreal work area\LitAWiz_GDD2021\LitAWiz_GDD2021\Content\62070047\FireBall_BP.uasset: [Compiler] Event Dispatcher pin is not connected  Bind Event to On Hit Floor
+[2021.11.10-07.03.53:120][741]LogUObjectHash: Compacting FUObjectHashTables data took   5.19ms
+[2021.11.10-07.05.54:803][701]BlueprintLog: New page: Compile FireBall_BP
+[2021.11.10-07.05.54:805][701]LogBlueprint: Error: [AssetLog] C:\workspace\unreal work area\LitAWiz_GDD2021\LitAWiz_GDD2021\Content\62070047\FireBall_BP.uasset: [Compiler] The type of  Object  is undetermined.  Connect something to  Cast To Floor_BP  to imply a specific type.
+[2021.11.10-07.05.54:805][701]LogBlueprint: Error: [AssetLog] C:\workspace\unreal work area\LitAWiz_GDD2021\LitAWiz_GDD2021\Content\62070047\FireBall_BP.uasset: [Compiler] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2021.11.10-07.05.54:805][701]LogBlueprint: Error: [AssetLog] C:\workspace\unreal work area\LitAWiz_GDD2021\LitAWiz_GDD2021\Content\62070047\FireBall_BP.uasset: [Compiler] Event Dispatcher pin is not connected  Bind Event to On Hit Floor
+[2021.11.10-07.05.54:873][701]LogUObjectHash: Compacting FUObjectHashTables data took   4.77ms
+[2021.11.10-07.06.09:847][ 86]BlueprintLog: New page: Compile FireBall_BP
+[2021.11.10-07.06.09:919][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   5.42ms
+[2021.11.10-07.06.10:434][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/62070047/FireBall_BP" FILE="C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/FireBall_BP.uasset" SILENT=true
+[2021.11.10-07.06.10:444][128]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/FireBall_BP50B863564AC1F0F7CED412AD9BE8272C.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/FireBall_BP.uasset'
+[2021.11.10-07.06.10:461][128]AssetCheck: New page: Asset Save: FireBall_BP
+[2021.11.10-07.06.10:461][128]LogContentValidation: Display: Validating Blueprint /Game/62070047/FireBall_BP.FireBall_BP
+[2021.11.10-07.06.53:054][738]LogUObjectHash: Compacting FUObjectHashTables data took   5.65ms
+[2021.11.10-07.06.53:067][738]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Test_map_Auto6AACF563F4A6293DB499B6EBCE6649B03.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Autosaves/Game/62070047/Test_map_Auto6.umap'
+[2021.11.10-07.06.53:068][738]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/62070047/Test_map' took 0.061
+[2021.11.10-07.06.53:068][738]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.061
+[2021.11.10-07.08.31:449][867]BlueprintLog: New page: Compile MainChar
+[2021.11.10-07.08.31:536][867]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2021.11.10-07.08.32:785][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/62070047/MainChar" FILE="C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/MainChar.uasset" SILENT=true
+[2021.11.10-07.08.32:804][977]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/MainCharB52D18F74804BDAF6EB713AD7468843B.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/MainChar.uasset'
+[2021.11.10-07.08.32:820][977]AssetCheck: New page: Asset Save: MainChar
+[2021.11.10-07.08.32:820][977]LogContentValidation: Display: Validating Blueprint /Game/62070047/MainChar.MainChar
