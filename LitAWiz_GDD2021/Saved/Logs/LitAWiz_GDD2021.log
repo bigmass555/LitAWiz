@@ -22205,3 +22205,1295 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.11.13-15.55.21:767][ 46]AssetCheck: New page: Asset Save: multiple assets
 [2021.11.13-15.55.21:767][ 46]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/62070047/Maps/Test_map_BuiltData.Test_map_BuiltData
 [2021.11.13-15.55.21:767][ 46]LogContentValidation: Display: Validating World /Game/62070047/Maps/Test_map.Test_map
+[2021.11.13-15.57.48:667][550]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.13-15.57.48:671][550]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.13-15.57.48:671][550]PIE: New page: PIE session: Test_map (Nov 14, 2021, 5:57:48 AM)
+[2021.11.13-15.57.48:699][550]LogPlayLevel: Creating play world package: /Game/62070047/Maps/UEDPIE_0_Test_map
+[2021.11.13-15.57.48:703][550]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003597s)
+[2021.11.13-15.57.48:704][550]LogAIModule: Creating AISystem for world Test_map
+[2021.11.13-15.57.48:704][550]LogPlayLevel: PIE: World Init took: (0.001158s)
+[2021.11.13-15.57.48:704][550]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/62070047/Maps/Test_map.Test_map to /Game/62070047/Maps/UEDPIE_0_Test_map.Test_map (0.004924s)
+[2021.11.13-15.57.48:758][550]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2021.11.13-15.57.48:770][550]LogAudio: Display: Creating Audio Device:                 Id: 127, Scope: Unique, Realtime: True
+[2021.11.13-15.57.48:770][550]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.13-15.57.48:770][550]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.13-15.57.48:770][550]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.13-15.57.48:770][550]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.13-15.57.48:770][550]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.13-15.57.48:770][550]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.13-15.57.48:771][550]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.13-15.57.48:771][550]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.13-15.57.48:771][550]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.13-15.57.48:771][550]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.13-15.57.48:773][550]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.13-15.57.48:773][550]LogAudioMixer: Display: 1: FrontRight
+[2021.11.13-15.57.48:787][550]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2021.11.13-15.57.48:789][550]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.13-15.57.48:789][550]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.13-15.57.48:789][550]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.13-15.57.48:791][550]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.13-15.57.48:791][550]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.13-15.57.48:791][550]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.13-15.57.48:806][550]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.13-15.57.48:806][550]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.13-15.57.48:807][550]LogInit: FAudioDevice initialized.
+[2021.11.13-15.57.48:807][550]LogAudio: Display: Audio Device (ID: 127) registered with world 'Test_map'.
+[2021.11.13-15.57.48:813][550]LogLoad: Game class is 'MainGameMode_C'
+[2021.11.13-15.57.48:814][550]LogWorld: Bringing World /Game/62070047/Maps/UEDPIE_0_Test_map.Test_map up for play (max tick rate 0) at 2021.11.13-22.57.48
+[2021.11.13-15.57.48:814][550]LogWorld: Bringing up level for play took: 0.001035
+[2021.11.13-15.57.48:814][550]LogOnline: OSS: Creating online subsystem instance for: :Context_144
+[2021.11.13-15.57.48:818][550]PIE: Server logged in
+[2021.11.13-15.57.48:818][550]PIE: Play in editor total start time 0.148 seconds.
+[2021.11.13-15.57.49:865][672]LogBlueprintUserMessages: [FireBall_BP_C_0] PressurePlate_BP_C
+[2021.11.13-15.58.01:160][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.13-15.58.01:160][ 22]LogWorld: BeginTearingDown for /Game/62070047/Maps/UEDPIE_0_Test_map
+[2021.11.13-15.58.01:160][ 22]LogWorld: UWorld::CleanupWorld for Test_map, bSessionEnded=true, bCleanupResources=true
+[2021.11.13-15.58.01:160][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.13-15.58.01:172][ 22]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.13-15.58.01:184][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.13-15.58.01:225][ 22]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.13-15.58.01:225][ 22]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.13-15.58.01:226][ 22]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.13-15.58.01:241][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.13-15.58.01:245][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2021.11.13-15.58.01:300][ 23]LogPlayLevel: Display: Destroying online subsystem :Context_144
+[2021.11.13-15.58.05:113][427]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.13-15.58.05:119][427]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.13-15.58.05:119][427]PIE: New page: PIE session: Test_map (Nov 14, 2021, 5:58:05 AM)
+[2021.11.13-15.58.05:149][427]LogPlayLevel: Creating play world package: /Game/62070047/Maps/UEDPIE_0_Test_map
+[2021.11.13-15.58.05:152][427]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003638s)
+[2021.11.13-15.58.05:154][427]LogAIModule: Creating AISystem for world Test_map
+[2021.11.13-15.58.05:154][427]LogPlayLevel: PIE: World Init took: (0.001315s)
+[2021.11.13-15.58.05:154][427]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/62070047/Maps/Test_map.Test_map to /Game/62070047/Maps/UEDPIE_0_Test_map.Test_map (0.005133s)
+[2021.11.13-15.58.05:199][427]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2021.11.13-15.58.05:202][427]LogAudio: Display: Creating Audio Device:                 Id: 128, Scope: Unique, Realtime: True
+[2021.11.13-15.58.05:202][427]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.13-15.58.05:202][427]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.13-15.58.05:202][427]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.13-15.58.05:202][427]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.13-15.58.05:202][427]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.13-15.58.05:202][427]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.13-15.58.05:202][427]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.13-15.58.05:202][427]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.13-15.58.05:203][427]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.13-15.58.05:203][427]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.13-15.58.05:205][427]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.13-15.58.05:205][427]LogAudioMixer: Display: 1: FrontRight
+[2021.11.13-15.58.05:220][427]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2021.11.13-15.58.05:220][427]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.13-15.58.05:220][427]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.13-15.58.05:220][427]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.13-15.58.05:221][427]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.13-15.58.05:221][427]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.13-15.58.05:221][427]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.13-15.58.05:234][427]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.13-15.58.05:234][427]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.13-15.58.05:234][427]LogInit: FAudioDevice initialized.
+[2021.11.13-15.58.05:234][427]LogAudio: Display: Audio Device (ID: 128) registered with world 'Test_map'.
+[2021.11.13-15.58.05:241][427]LogLoad: Game class is 'MainGameMode_C'
+[2021.11.13-15.58.05:243][427]LogWorld: Bringing World /Game/62070047/Maps/UEDPIE_0_Test_map.Test_map up for play (max tick rate 0) at 2021.11.13-22.58.05
+[2021.11.13-15.58.05:243][427]LogWorld: Bringing up level for play took: 0.000974
+[2021.11.13-15.58.05:243][427]LogOnline: OSS: Creating online subsystem instance for: :Context_145
+[2021.11.13-15.58.05:246][427]PIE: Server logged in
+[2021.11.13-15.58.05:247][427]PIE: Play in editor total start time 0.128 seconds.
+[2021.11.13-15.58.05:911][503]LogBlueprintUserMessages: [FireBall_BP_C_0] PressurePlate_BP_C
+[2021.11.13-15.58.15:882][699]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.15:890][700]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.15:899][701]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.15:907][702]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.15:915][703]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.15:923][704]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.15:932][705]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.15:941][706]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.15:949][707]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.15:957][708]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.15:965][709]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.15:974][710]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.15:982][711]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.15:991][712]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.15:998][713]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:007][714]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:015][715]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:024][716]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:032][717]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:040][718]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:048][719]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:057][720]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:066][721]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:075][722]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:082][723]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:091][724]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:099][725]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:108][726]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:116][727]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:125][728]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:132][729]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:141][730]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:150][731]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:159][732]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:168][733]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:175][734]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:184][735]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:192][736]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:201][737]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:209][738]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:217][739]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:225][740]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:234][741]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:242][742]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:251][743]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:259][744]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:267][745]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:276][746]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:284][747]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:292][748]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:300][749]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:309][750]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:317][751]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:326][752]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:334][753]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:343][754]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:351][755]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:359][756]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:368][757]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:375][758]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:385][759]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:393][760]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:402][761]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:410][762]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:418][763]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:426][764]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:436][765]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.58.16:480][765]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.13-15.58.16:480][765]LogWorld: BeginTearingDown for /Game/62070047/Maps/UEDPIE_0_Test_map
+[2021.11.13-15.58.16:480][765]LogWorld: UWorld::CleanupWorld for Test_map, bSessionEnded=true, bCleanupResources=true
+[2021.11.13-15.58.16:481][765]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.13-15.58.16:490][765]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.13-15.58.16:504][765]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.13-15.58.16:545][765]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.13-15.58.16:545][765]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.13-15.58.16:546][765]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.13-15.58.16:571][765]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2021.11.13-15.58.16:630][766]LogPlayLevel: Display: Destroying online subsystem :Context_145
+[2021.11.13-15.58.17:514][851]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.13-15.58.17:520][851]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.13-15.58.17:520][851]PIE: New page: PIE session: Test_map (Nov 14, 2021, 5:58:17 AM)
+[2021.11.13-15.58.17:520][851]LogPlayLevel: Creating play world package: /Game/62070047/Maps/UEDPIE_0_Test_map
+[2021.11.13-15.58.17:523][851]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003993s)
+[2021.11.13-15.58.17:524][851]LogAIModule: Creating AISystem for world Test_map
+[2021.11.13-15.58.17:524][851]LogPlayLevel: PIE: World Init took: (0.001160s)
+[2021.11.13-15.58.17:525][851]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/62070047/Maps/Test_map.Test_map to /Game/62070047/Maps/UEDPIE_0_Test_map.Test_map (0.005307s)
+[2021.11.13-15.58.17:570][851]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2021.11.13-15.58.17:572][851]LogAudio: Display: Creating Audio Device:                 Id: 129, Scope: Unique, Realtime: True
+[2021.11.13-15.58.17:572][851]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.13-15.58.17:572][851]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.13-15.58.17:572][851]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.13-15.58.17:572][851]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.13-15.58.17:572][851]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.13-15.58.17:572][851]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.13-15.58.17:572][851]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.13-15.58.17:572][851]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.13-15.58.17:572][851]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.13-15.58.17:572][851]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.13-15.58.17:575][851]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.13-15.58.17:575][851]LogAudioMixer: Display: 1: FrontRight
+[2021.11.13-15.58.17:591][851]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2021.11.13-15.58.17:591][851]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.13-15.58.17:591][851]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.13-15.58.17:591][851]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.13-15.58.17:592][851]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.13-15.58.17:592][851]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.13-15.58.17:592][851]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.13-15.58.17:608][851]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.13-15.58.17:608][851]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.13-15.58.17:608][851]LogInit: FAudioDevice initialized.
+[2021.11.13-15.58.17:608][851]LogAudio: Display: Audio Device (ID: 129) registered with world 'Test_map'.
+[2021.11.13-15.58.17:614][851]LogLoad: Game class is 'MainGameMode_C'
+[2021.11.13-15.58.17:616][851]LogWorld: Bringing World /Game/62070047/Maps/UEDPIE_0_Test_map.Test_map up for play (max tick rate 0) at 2021.11.13-22.58.17
+[2021.11.13-15.58.17:616][851]LogWorld: Bringing up level for play took: 0.001136
+[2021.11.13-15.58.17:616][851]LogOnline: OSS: Creating online subsystem instance for: :Context_146
+[2021.11.13-15.58.17:621][851]PIE: Server logged in
+[2021.11.13-15.58.17:622][851]PIE: Play in editor total start time 0.103 seconds.
+[2021.11.13-15.58.18:180][913]LogBlueprintUserMessages: [FireBall_BP_C_0] PressurePlate_BP_C
+[2021.11.13-15.58.56:751][530]LogBlueprintUserMessages: [FireBall_BP_C_1] StoneFall_BP_C
+[2021.11.13-15.59.17:602][ 29]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.59.17:610][ 30]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.59.17:619][ 31]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.59.17:627][ 32]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.59.17:636][ 33]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.59.17:643][ 34]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.59.17:652][ 35]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.59.17:661][ 36]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.59.17:670][ 37]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.59.17:678][ 38]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.59.17:685][ 39]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.59.17:694][ 40]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.59.17:702][ 41]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.59.17:711][ 42]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.59.17:719][ 43]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.59.17:727][ 44]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.59.17:735][ 45]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.59.17:744][ 46]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.59.17:752][ 47]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.59.17:760][ 48]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.59.17:769][ 49]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.59.17:777][ 50]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.59.17:786][ 51]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.59.17:794][ 52]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.59.17:802][ 53]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.59.17:810][ 54]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.59.17:819][ 55]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.59.17:828][ 56]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-15.59.17:870][ 56]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.13-15.59.17:870][ 56]LogWorld: BeginTearingDown for /Game/62070047/Maps/UEDPIE_0_Test_map
+[2021.11.13-15.59.17:871][ 56]LogWorld: UWorld::CleanupWorld for Test_map, bSessionEnded=true, bCleanupResources=true
+[2021.11.13-15.59.17:871][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.13-15.59.17:882][ 56]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.13-15.59.17:895][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.13-15.59.17:934][ 56]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.13-15.59.17:935][ 56]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.13-15.59.17:935][ 56]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.13-15.59.17:956][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2021.11.13-15.59.18:009][ 57]LogPlayLevel: Display: Destroying online subsystem :Context_146
+[2021.11.13-15.59.18:035][ 58]Cmd: SELECT NONE
+[2021.11.13-15.59.50:649][956]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MERGED_Floor5)
+[2021.11.13-15.59.51:060][996]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_MERGED_Floor5)
+[2021.11.13-15.59.52:227][100]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.13-15.59.52:922][169]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.13-15.59.52:928][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.13-15.59.52:928][169]PIE: New page: PIE session: Test_map (Nov 14, 2021, 5:59:52 AM)
+[2021.11.13-15.59.52:969][169]LogPlayLevel: Creating play world package: /Game/62070047/Maps/UEDPIE_0_Test_map
+[2021.11.13-15.59.52:973][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004126s)
+[2021.11.13-15.59.52:975][169]LogAIModule: Creating AISystem for world Test_map
+[2021.11.13-15.59.52:975][169]LogPlayLevel: PIE: World Init took: (0.001526s)
+[2021.11.13-15.59.52:975][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/62070047/Maps/Test_map.Test_map to /Game/62070047/Maps/UEDPIE_0_Test_map.Test_map (0.005862s)
+[2021.11.13-15.59.53:020][169]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2021.11.13-15.59.53:030][169]LogAudio: Display: Creating Audio Device:                 Id: 130, Scope: Unique, Realtime: True
+[2021.11.13-15.59.53:030][169]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.13-15.59.53:030][169]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.13-15.59.53:030][169]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.13-15.59.53:030][169]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.13-15.59.53:030][169]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.13-15.59.53:030][169]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.13-15.59.53:030][169]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.13-15.59.53:030][169]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.13-15.59.53:031][169]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.13-15.59.53:031][169]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.13-15.59.53:033][169]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.13-15.59.53:033][169]LogAudioMixer: Display: 1: FrontRight
+[2021.11.13-15.59.53:048][169]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2021.11.13-15.59.53:048][169]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.13-15.59.53:048][169]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.13-15.59.53:048][169]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.13-15.59.53:049][169]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.13-15.59.53:049][169]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.13-15.59.53:049][169]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.13-15.59.53:062][169]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.13-15.59.53:062][169]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.13-15.59.53:062][169]LogInit: FAudioDevice initialized.
+[2021.11.13-15.59.53:062][169]LogAudio: Display: Audio Device (ID: 130) registered with world 'Test_map'.
+[2021.11.13-15.59.53:071][169]LogLoad: Game class is 'MainGameMode_C'
+[2021.11.13-15.59.53:073][169]LogWorld: Bringing World /Game/62070047/Maps/UEDPIE_0_Test_map.Test_map up for play (max tick rate 0) at 2021.11.13-22.59.53
+[2021.11.13-15.59.53:073][169]LogWorld: Bringing up level for play took: 0.001135
+[2021.11.13-15.59.53:073][169]LogOnline: OSS: Creating online subsystem instance for: :Context_147
+[2021.11.13-15.59.53:077][169]PIE: Server logged in
+[2021.11.13-15.59.53:077][169]PIE: Play in editor total start time 0.151 seconds.
+[2021.11.13-15.59.57:198][660]LogBlueprintUserMessages: [FireBall_BP_C_0] SpiderWeb_BP_C
+[2021.11.13-15.59.58:316][794]LogBlueprintUserMessages: [FireBall_BP_C_1] SpiderWeb_BP_C
+[2021.11.13-16.00.01:394][163]LogBlueprintUserMessages: [FireBall_BP_C_2] Floor_BP_C
+[2021.11.13-16.00.02:630][311]LogBlueprintUserMessages: [FireBall_BP_C_3] Floor_BP_C
+[2021.11.13-16.00.03:757][446]LogBlueprintUserMessages: [FireBall_BP_C_4] Floor_BP_C
+[2021.11.13-16.00.07:657][914]LogBlueprintUserMessages: [FireBall_BP_C_6] Floor_BP_C
+[2021.11.13-16.00.14:534][733]LogBlueprintUserMessages: [FireBall_BP_C_11] Floor_BP_C
+[2021.11.13-16.00.15:645][866]LogBlueprintUserMessages: [FireBall_BP_C_12] Floor_BP_C
+[2021.11.13-16.00.18:047][154]LogBlueprintUserMessages: [FireBall_BP_C_13] Floor_BP_C
+[2021.11.13-16.00.29:384][514]LogBlueprintUserMessages: [FireBall_BP_C_14] SpiderWeb_BP_C
+[2021.11.13-16.00.32:230][855]LogBlueprintUserMessages: [FireBall_BP_C_15] SpiderWeb_BP_C
+[2021.11.13-16.00.44:884][369]LogBlueprintUserMessages: [MainChar_C_0] Spider_BP
+[2021.11.13-16.00.44:884][369]LogBlueprintUserMessages: [MainChar_C_0] Set Immune to : 3.0
+[2021.11.13-16.00.44:884][369]LogBlueprintUserMessages: [MainChar_C_0] PlayerHP : 2
+[2021.11.13-16.00.45:834][483]LogBlueprintUserMessages: [MainChar_C_0] Spider_BP
+[2021.11.13-16.00.45:834][483]LogBlueprintUserMessages: [MainChar_C_0] Immune : 2.049653. HP : 2.
+[2021.11.13-16.00.46:828][602]LogBlueprintUserMessages: [MainChar_C_0] Spider_BP
+[2021.11.13-16.00.46:828][602]LogBlueprintUserMessages: [MainChar_C_0] Immune : 1.056314. HP : 2.
+[2021.11.13-16.00.47:837][723]LogBlueprintUserMessages: [MainChar_C_0] Spider_BP
+[2021.11.13-16.00.47:837][723]LogBlueprintUserMessages: [MainChar_C_0] Immune : 0.047617. HP : 2.
+[2021.11.13-16.00.48:829][842]LogBlueprintUserMessages: [MainChar_C_0] Spider_BP
+[2021.11.13-16.00.48:829][842]LogBlueprintUserMessages: [MainChar_C_0] Set Immune to : 3.0
+[2021.11.13-16.00.48:829][842]LogBlueprintUserMessages: [MainChar_C_0] PlayerHP : 1
+[2021.11.13-16.00.49:840][963]LogBlueprintUserMessages: [MainChar_C_0] Spider_BP
+[2021.11.13-16.00.49:840][963]LogBlueprintUserMessages: [MainChar_C_0] Immune : 1.989601. HP : 1.
+[2021.11.13-16.00.50:899][ 90]LogBlueprintUserMessages: [MainChar_C_0] Spider_BP
+[2021.11.13-16.00.50:899][ 90]LogBlueprintUserMessages: [MainChar_C_0] Immune : 0.930124. HP : 1.
+[2021.11.13-16.00.51:874][207]LogBlueprintUserMessages: [MainChar_C_0] Spider_BP
+[2021.11.13-16.00.51:875][207]LogBlueprintUserMessages: [MainChar_C_0] Set Immune to : 3.0
+[2021.11.13-16.00.51:875][207]LogBlueprintUserMessages: [MainChar_C_0] PlayerHP : 0
+[2021.11.13-16.00.51:875][207]LogBlueprintUserMessages: [MainChar_C_0] Spider_BP
+[2021.11.13-16.00.51:875][207]LogBlueprintUserMessages: [MainChar_C_0] Set Immune to : 3.0
+[2021.11.13-16.00.51:875][207]LogBlueprintUserMessages: [MainChar_C_0] PlayerHP : 0
+[2021.11.13-16.00.51:875][207]LogBlueprintUserMessages: [MainChar_C_0] Spider_BP
+[2021.11.13-16.00.51:875][207]LogBlueprintUserMessages: [MainChar_C_0] Set Immune to : 3.0
+[2021.11.13-16.00.51:875][207]LogBlueprintUserMessages: [MainChar_C_0] PlayerHP : 0
+[2021.11.13-16.00.51:875][207]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.51:884][208]LogBlueprintUserMessages: [MainChar_C_0] Spider_BP
+[2021.11.13-16.00.51:884][208]LogBlueprintUserMessages: [MainChar_C_0] Set Immune to : 3.0
+[2021.11.13-16.00.51:884][208]LogBlueprintUserMessages: [MainChar_C_0] PlayerHP : 0
+[2021.11.13-16.00.51:884][208]LogBlueprintUserMessages: [MainChar_C_0] Spider_BP
+[2021.11.13-16.00.51:884][208]LogBlueprintUserMessages: [MainChar_C_0] Set Immune to : 3.0
+[2021.11.13-16.00.51:884][208]LogBlueprintUserMessages: [MainChar_C_0] PlayerHP : 0
+[2021.11.13-16.00.51:884][208]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.51:892][209]LogBlueprintUserMessages: [MainChar_C_0] Spider_BP
+[2021.11.13-16.00.51:892][209]LogBlueprintUserMessages: [MainChar_C_0] Set Immune to : 3.0
+[2021.11.13-16.00.51:892][209]LogBlueprintUserMessages: [MainChar_C_0] PlayerHP : 0
+[2021.11.13-16.00.51:892][209]LogBlueprintUserMessages: [MainChar_C_0] Spider_BP
+[2021.11.13-16.00.51:892][209]LogBlueprintUserMessages: [MainChar_C_0] Set Immune to : 3.0
+[2021.11.13-16.00.51:892][209]LogBlueprintUserMessages: [MainChar_C_0] PlayerHP : 0
+[2021.11.13-16.00.51:892][209]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.51:899][210]LogBlueprintUserMessages: [MainChar_C_0] Spider_BP
+[2021.11.13-16.00.51:899][210]LogBlueprintUserMessages: [MainChar_C_0] Set Immune to : 3.0
+[2021.11.13-16.00.51:899][210]LogBlueprintUserMessages: [MainChar_C_0] PlayerHP : 0
+[2021.11.13-16.00.51:899][210]LogBlueprintUserMessages: [MainChar_C_0] Spider_BP
+[2021.11.13-16.00.51:899][210]LogBlueprintUserMessages: [MainChar_C_0] Set Immune to : 3.0
+[2021.11.13-16.00.51:900][210]LogBlueprintUserMessages: [MainChar_C_0] PlayerHP : 0
+[2021.11.13-16.00.51:900][210]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.51:908][211]LogBlueprintUserMessages: [MainChar_C_0] Spider_BP
+[2021.11.13-16.00.51:908][211]LogBlueprintUserMessages: [MainChar_C_0] Set Immune to : 3.0
+[2021.11.13-16.00.51:908][211]LogBlueprintUserMessages: [MainChar_C_0] PlayerHP : 0
+[2021.11.13-16.00.51:908][211]LogBlueprintUserMessages: [MainChar_C_0] Spider_BP
+[2021.11.13-16.00.51:908][211]LogBlueprintUserMessages: [MainChar_C_0] Set Immune to : 3.0
+[2021.11.13-16.00.51:908][211]LogBlueprintUserMessages: [MainChar_C_0] PlayerHP : 0
+[2021.11.13-16.00.51:908][211]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.51:916][212]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.51:925][213]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.51:933][214]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.51:941][215]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.51:950][216]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.51:958][217]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.51:967][218]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.51:976][219]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.51:983][220]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.51:991][221]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:000][222]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:008][223]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:017][224]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:025][225]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:033][226]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:042][227]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:050][228]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:059][229]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:066][230]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:075][231]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:083][232]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:092][233]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:100][234]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:108][235]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:116][236]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:125][237]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:133][238]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:142][239]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:150][240]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:158][241]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:167][242]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:176][243]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:184][244]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:191][245]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:200][246]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:208][247]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:217][248]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:225][249]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:233][250]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:241][251]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:250][252]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:259][253]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:266][254]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:275][255]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:283][256]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:292][257]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:300][258]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:308][259]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:316][260]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:325][261]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:333][262]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:342][263]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:350][264]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:358][265]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:367][266]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:375][267]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:384][268]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:391][269]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:400][270]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:408][271]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:417][272]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:425][273]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:433][274]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:441][275]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:450][276]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:458][277]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:467][278]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:475][279]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:483][280]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:492][281]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:500][282]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:509][283]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:516][284]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:526][285]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:535][286]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:543][287]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:551][288]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:561][289]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:570][290]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:579][291]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:591][292]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:600][293]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:609][294]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:618][295]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:626][296]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:634][297]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:642][298]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:651][299]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:660][300]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:668][301]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:675][302]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:684][303]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:693][304]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:701][305]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:710][306]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:718][307]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:726][308]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:734][309]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:743][310]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:752][311]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:760][312]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:769][313]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:777][314]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:786][315]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:794][316]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:803][317]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:812][318]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:820][319]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:828][320]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:836][321]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:845][322]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:854][323]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:861][324]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:870][325]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:878][326]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:887][327]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:895][328]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:903][329]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:911][330]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:920][331]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:928][332]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:937][333]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:945][334]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:954][335]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:961][336]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:970][337]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:978][338]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:987][339]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.52:995][340]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:003][341]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:011][342]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:020][343]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:028][344]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:037][345]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:046][346]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:055][347]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:064][348]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:073][349]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:080][350]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:089][351]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:097][352]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:106][353]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:115][354]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:122][355]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:131][356]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:139][357]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:148][358]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:156][359]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:164][360]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:172][361]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:181][362]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:190][363]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:198][364]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:206][365]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:214][366]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:223][367]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:231][368]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:240][369]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:247][370]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:256][371]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:264][372]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:273][373]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:281][374]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:289][375]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:297][376]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:306][377]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:314][378]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:323][379]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:330][380]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:339][381]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:348][382]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:357][383]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:365][384]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:372][385]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:381][386]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:389][387]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:398][388]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:406][389]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:414][390]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:423][391]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:431][392]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:440][393]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:448][394]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:456][395]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:464][396]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:473][397]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:481][398]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:489][399]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:497][400]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:506][401]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:515][402]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:525][403]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:533][404]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:542][405]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:550][406]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:559][407]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:567][408]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:575][409]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:584][410]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:592][411]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:601][412]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:610][413]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:617][414]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:626][415]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:635][416]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:643][417]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:653][418]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:667][419]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:676][420]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:684][421]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:692][422]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:701][423]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:710][424]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:719][425]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:726][426]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:735][427]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:743][428]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:752][429]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:760][430]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:769][431]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:779][432]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:786][433]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:795][434]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:804][435]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:812][436]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:821][437]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:845][438]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:852][439]LogBlueprintUserMessages: [MainChar_C_0] Skeleton_BP
+[2021.11.13-16.00.53:852][439]LogBlueprintUserMessages: [MainChar_C_0] Set Immune to : 3.0
+[2021.11.13-16.00.53:852][439]LogBlueprintUserMessages: [MainChar_C_0] PlayerHP : 0
+[2021.11.13-16.00.53:852][439]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:860][440]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:868][441]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:876][442]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:885][443]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:893][444]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:902][445]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:909][446]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:918][447]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:926][448]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:935][449]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:943][450]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:953][451]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:961][452]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:968][453]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:977][454]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:985][455]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.53:994][456]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:002][457]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:010][458]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:018][459]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:027][460]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:035][461]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:046][462]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:052][463]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:061][464]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:069][465]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:078][466]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:086][467]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:094][468]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:102][469]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:111][470]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:120][471]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:128][472]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:136][473]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:145][474]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:153][475]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:161][476]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:170][477]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:177][478]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:186][479]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:194][480]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:203][481]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:210][482]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:219][483]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:227][484]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:236][485]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:245][486]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:252][487]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:261][488]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:270][489]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:278][490]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:286][491]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:294][492]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:302][493]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:311][494]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:320][495]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:328][496]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:336][497]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:344][498]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:353][499]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:361][500]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:370][501]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:377][502]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:386][503]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:394][504]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:403][505]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:411][506]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:419][507]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:427][508]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:436][509]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:445][510]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:453][511]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:461][512]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:473][513]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:480][514]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:489][515]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:496][516]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:505][517]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:513][518]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:522][519]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:530][520]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:538][521]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:546][522]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:555][523]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:563][524]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:572][525]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:579][526]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:588][527]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:596][528]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:605][529]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:614][530]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:621][531]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:630][532]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:638][533]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:647][534]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:655][535]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:663][536]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:671][537]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:680][538]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:689][539]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:697][540]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:705][541]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:714][542]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:722][543]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:731][544]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:739][545]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:747][546]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:756][547]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:764][548]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:773][549]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:780][550]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:789][551]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:798][552]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:807][553]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:816][554]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:825][555]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:833][556]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:842][557]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:850][558]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:859][559]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:866][560]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:875][561]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:884][562]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:892][563]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:901][564]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:910][565]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:919][566]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:927][567]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:936][568]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:944][569]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:953][570]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:961][571]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:970][572]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:979][573]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:986][574]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.54:995][575]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:004][576]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:012][577]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:021][578]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:029][579]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:037][580]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:046][581]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:054][582]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:063][583]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:071][584]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:079][585]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:088][586]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:096][587]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:105][588]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:112][589]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:121][590]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:130][591]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:138][592]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:145][593]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:154][594]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:163][595]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:171][596]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:180][597]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:188][598]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:196][599]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:205][600]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:213][601]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:222][602]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:230][603]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:238][604]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:246][605]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:255][606]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:264][607]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:271][608]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:280][609]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:288][610]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:297][611]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:305][612]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:313][613]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:322][614]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:330][615]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:339][616]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:347][617]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:355][618]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:364][619]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:372][620]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:380][621]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:388][622]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:397][623]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:405][624]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:414][625]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:421][626]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:430][627]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:438][628]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:447][629]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:455][630]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:463][631]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:472][632]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:480][633]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:489][634]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:496][635]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:505][636]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:513][637]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:522][638]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:530][639]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:538][640]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:547][641]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:555][642]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:564][643]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:572][644]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:580][645]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:588][646]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:597][647]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:605][648]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:614][649]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:622][650]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:630][651]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:639][652]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:647][653]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:655][654]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:663][655]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:672][656]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:680][657]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:689][658]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:697][659]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:705][660]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:714][661]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:722][662]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:731][663]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:738][664]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:747][665]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:756][666]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:764][667]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:772][668]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:780][669]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:789][670]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:798][671]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:805][672]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:814][673]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:822][674]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:831][675]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:839][676]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:847][677]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:856][678]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:864][679]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:872][680]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:880][681]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:889][682]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:898][683]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:905][684]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:913][685]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:922][686]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:931][687]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:939][688]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:947][689]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:955][690]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:964][691]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:972][692]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:981][693]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:988][694]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.55:997][695]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:005][696]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:014][697]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:023][698]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:030][699]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:039][700]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:047][701]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:055][702]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:064][703]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:072][704]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:081][705]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:089][706]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:097][707]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:105][708]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:114][709]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:122][710]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:130][711]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:139][712]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:147][713]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:156][714]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:165][715]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:172][716]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:180][717]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:189][718]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:197][719]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:206][720]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:213][721]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:222][722]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:231][723]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:239][724]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:248][725]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:256][726]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:264][727]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:273][728]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:280][729]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:289][730]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:297][731]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:306][732]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:314][733]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:322][734]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:331][735]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:339][736]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:348][737]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:355][738]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:364][739]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:372][740]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:381][741]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:389][742]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:397][743]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:405][744]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:414][745]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:422][746]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:432][747]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:439][748]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:447][749]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:457][750]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:465][751]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:473][752]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:481][753]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:489][754]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:498][755]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:506][756]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:515][757]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:523][758]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:531][759]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:540][760]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:548][761]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:557][762]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:564][763]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:573][764]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:581][765]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:590][766]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:598][767]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:606][768]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:614][769]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:623][770]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:632][771]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:639][772]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:648][773]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:656][774]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:665][775]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:673][776]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:681][777]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:689][778]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:698][779]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:706][780]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:715][781]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:722][782]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:731][783]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:740][784]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:748][785]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:757][786]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:764][787]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:773][788]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:781][789]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:790][790]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:798][791]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:806][792]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:814][793]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:823][794]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:831][795]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:840][796]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:847][797]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:856][798]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:865][799]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:873][800]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:882][801]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:889][802]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:898][803]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:906][804]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:915][805]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:923][806]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:931][807]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:939][808]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:948][809]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:957][810]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:965][811]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:973][812]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:981][813]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:990][814]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.56:998][815]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:006][816]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:014][817]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:023][818]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:031][819]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:040][820]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:048][821]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:056][822]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:065][823]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:073][824]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:082][825]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:089][826]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:098][827]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:106][828]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:115][829]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:123][830]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:131][831]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:140][832]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:148][833]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:156][834]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:165][835]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:173][836]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:181][837]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:190][838]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:198][839]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:207][840]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:214][841]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:223][842]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:231][843]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:240][844]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:248][845]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:256][846]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:264][847]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:273][848]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:281][849]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:290][850]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:298][851]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:306][852]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:315][853]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:324][854]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:331][855]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:339][856]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:348][857]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:357][858]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:366][859]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:373][860]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:381][861]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:390][862]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:398][863]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:407][864]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:414][865]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:423][866]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:431][867]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:440][868]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:448][869]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:456][870]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:465][871]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:473][872]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:482][873]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:490][874]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:498][875]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:506][876]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:515][877]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:523][878]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:532][879]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:539][880]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:548][881]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:557][882]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:565][883]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:574][884]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:581][885]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:590][886]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:598][887]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:607][888]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:615][889]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:623][890]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:631][891]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:640][892]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:648][893]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:656][894]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:665][895]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:673][896]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:682][897]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:689][898]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:698][899]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:706][900]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:715][901]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:724][902]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:731][903]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:740][904]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:748][905]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:757][906]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:765][907]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:773][908]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:781][909]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:790][910]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:798][911]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:807][912]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:815][913]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:823][914]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:832][915]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:840][916]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:849][917]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:856][918]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:865][919]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:874][920]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:882][921]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:890][922]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:898][923]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:907][924]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:915][925]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:924][926]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:931][927]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:940][928]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:948][929]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:957][930]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:965][931]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:973][932]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:981][933]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:990][934]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.57:998][935]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.58:007][936]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.58:014][937]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.58:023][938]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.58:032][939]LogBlueprintUserMessages: [Test_map_C_0] Open Level Game Over
+[2021.11.13-16.00.58:070][939]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.13-16.00.58:070][939]LogWorld: BeginTearingDown for /Game/62070047/Maps/UEDPIE_0_Test_map
+[2021.11.13-16.00.58:070][939]LogWorld: UWorld::CleanupWorld for Test_map, bSessionEnded=true, bCleanupResources=true
+[2021.11.13-16.00.58:070][939]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.13-16.00.58:080][939]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.13-16.00.58:093][939]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.13-16.00.58:133][939]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.13-16.00.58:133][939]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.13-16.00.58:134][939]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.13-16.00.58:150][939]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.13-16.00.58:155][939]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2021.11.13-16.00.58:210][940]LogPlayLevel: Display: Destroying online subsystem :Context_147
+[2021.11.13-16.01.08:993][201]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2021.11.13-16.01.09:011][201]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Test_mapF7F4B81B4DD897FAE2FE41B8BEFF03B7.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Maps/Test_map.umap'
+[2021.11.13-16.01.09:024][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/62070047/Maps/Test_map_BuiltData" FILE="C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Maps/Test_map_BuiltData.uasset" SILENT=true
+[2021.11.13-16.01.09:054][201]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Test_map_BuiltDataC4B761DA4FD5A11B222CB994D0AF9430.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Maps/Test_map_BuiltData.uasset'
+[2021.11.13-16.01.09:073][201]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.13-16.01.09:073][201]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/62070047/Maps/Test_map_BuiltData.Test_map_BuiltData
+[2021.11.13-16.01.09:073][201]LogContentValidation: Display: Validating World /Game/62070047/Maps/Test_map.Test_map
+[2021.11.13-16.01.10:723][386]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2021.11.13-16.01.10:740][386]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Test_map1CD08B4947448BE6926BEC885EFF8640.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Maps/Test_map.umap'
+[2021.11.13-16.01.10:752][386]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/62070047/Maps/Test_map_BuiltData" FILE="C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Maps/Test_map_BuiltData.uasset" SILENT=true
+[2021.11.13-16.01.10:782][386]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/Test_map_BuiltData97FFFB304220F3478E8352813557346C.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Maps/Test_map_BuiltData.uasset'
+[2021.11.13-16.01.10:799][386]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.13-16.01.10:800][386]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/62070047/Maps/Test_map_BuiltData.Test_map_BuiltData
+[2021.11.13-16.01.10:800][386]LogContentValidation: Display: Validating World /Game/62070047/Maps/Test_map.Test_map
+[2021.11.13-16.01.11:862][499]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2021.11.13-16.01.14:533][499]LogSlate: Window 'Save Content' being destroyed
+[2021.11.13-16.01.14:819][499]LogSavePackage: Moving 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Saved/marble_stone96B9578C4CAB8459E5E4069B09F12B14.tmp' to 'C:/workspace/unreal work area/LitAWiz_GDD2021/LitAWiz_GDD2021/Content/62070047/Blueprints/Block_BP/marble_stone.uasset'
+[2021.11.13-16.01.14:930][499]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.11.13-16.01.14:930][499]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.13-16.01.15:344][499]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.11.13-16.01.15:344][499]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.11.13-16.01.15:344][499]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.13-16.01.15:733][499]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.11.13-16.01.15:733][499]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.11.13-16.01.15:733][499]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.13-16.01.16:150][499]LogSlate: Window 'FireBall_BP' being destroyed
+[2021.11.13-16.01.16:191][499]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.11.13-16.01.16:191][499]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2021.11.13-16.01.16:191][499]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.13-16.01.16:398][499]LogSlate: Window 'LitAWiz_GDD2021 - Unreal Editor' being destroyed
+[2021.11.13-16.01.16:974][499]AssetCheck: New page: Asset Save: marble_stone
+[2021.11.13-16.01.16:974][499]LogContentValidation: Display: Validating Texture2D /Game/62070047/Blueprints/Block_BP/marble_stone.marble_stone
+[2021.11.13-16.01.16:992][500]Cmd: QUIT_EDITOR
+[2021.11.13-16.01.17:007][500]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2021.11.13-16.01.17:161][500]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.11.13-16.01.18:273][500]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2021.11.13-16.01.18:273][500]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2021.11.13-16.01.18:273][500]LogAudio: Display: Audio Device unregistered from world 'Test_map'.
+[2021.11.13-16.01.18:274][500]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.13-16.01.18:283][500]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.13-16.01.18:367][500]LogAudio: Display: Audio Device Manager Shutdown
+[2021.11.13-16.01.18:393][500]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.11.13-16.01.18:447][500]LogExit: Preparing to exit.
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5766300] Windows
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5766400] Default__DeviceProfile
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5651F00] WindowsNoEditor
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5766E00] WindowsServer
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5651200] WindowsClient
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5766100] IOS
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5653200] iPadAir
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5764500] iPadAir2
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55DDE00] IPadPro
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55DDF00] iPadAir3
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5652B00] iPadAir4
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55DF600] iPadMini2
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5650900] iPadMini3
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55DD700] iPadMini4
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5653A00] iPadMini5
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F1400] iPhone6
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F1500] iPodTouch6
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5766F00] iPhone7
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5765500] iPodTouch7
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F1E00] iPhone5S
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5764F00] iPhone6Plus
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F3800] iPhone6S
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5766700] iPhone6SPlus
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F2400] iPhone7Plus
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5652100] iPhoneSE
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F0600] iPhone8
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5651900] iPhone8Plus
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F1900] iPhoneX
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5651C00] iPhoneXS
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F0800] iPhoneXSMax
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5651D00] iPhoneXR
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F2100] iPhone11
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5650600] iPhone11Pro
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F1200] iPhone11ProMax
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5651700] iPhoneSE2
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F2900] iPhone12Mini
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5652500] iPhone12
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F2F00] iPhone12Pro
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5651400] iPhone12ProMax
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F0100] iPadPro105
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5651A00] iPadPro129
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F1B00] iPadPro97
+[2021.11.13-16.01.19:372][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5650E00] iPadPro2_129
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F2C00] iPad5
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5651300] iPad6
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F0700] iPad7
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5650800] iPad8
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F1A00] iPadPro11
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5650700] iPadPro2_11
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F1300] iPadPro3_129
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5650B00] iPadPro4_129
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F1700] AppleTV
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5650500] AppleTV4K
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F3B00] TVOS
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5652300] Mac
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F1100] MacClient
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5652000] MacNoEditor
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F0D00] MacServer
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5651500] Linux
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F1D00] LinuxAArch64
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5652200] LinuxNoEditor
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F0300] LinuxAArch64NoEditor
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5652800] LinuxClient
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F0500] LinuxAArch64Client
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5651000] LinuxServer
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F0A00] LinuxAArch64Server
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5653E00] Android
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F1000] Android_Low
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5652C00] Android_Mid
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F1800] Android_High
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5653400] Android_Default
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F3500] Android_Adreno4xx
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5650400] Android_Adreno5xx_Low
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55F3400] Android_Adreno5xx
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5653F00] Android_Adreno6xx
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55DE500] Android_Adreno6xx_Vulkan
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5766900] Android_Mali_T6xx
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55DDB00] Android_Mali_T7xx
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5766600] Android_Mali_T8xx
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55DC800] Android_Mali_G71
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5765B00] Android_Mali_G72
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55DDD00] Android_Mali_G72_Vulkan
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5765E00] Android_Mali_G76
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55DFF00] Android_Mali_G76_Vulkan
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5766500] Android_Mali_G77
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55DF700] Android_Mali_G77_Vulkan
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5765300] Android_Vulkan_SM5
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55DCA00] Android_PowerVR_G6xxx
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5766000] Android_PowerVR_GT7xxx
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55DFE00] Android_PowerVR_GE8xxx
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5765A00] Android_PowerVR_GM9xxx
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55DE200] Android_PowerVR_GM9xxx_Vulkan
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5764600] Android_TegraK1
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55DE900] Android_Unknown_Vulkan
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5765400] Lumin
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C55DCF00] Lumin_Desktop
+[2021.11.13-16.01.19:373][500]LogDeviceProfile: Device profile begin destroy: [000001D9C5764300] HoloLens
+[2021.11.13-16.01.20:136][500]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.11.13-16.01.20:136][500]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.11.13-16.01.20:136][500]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.11.13-16.01.20:136][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:136][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:136][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:136][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:136][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:136][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:136][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:136][500]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.11.13-16.01.20:136][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:136][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:136][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:136][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:137][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:137][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:137][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:137][500]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.11.13-16.01.20:137][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:137][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:137][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:137][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:137][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:137][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:137][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:137][500]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.11.13-16.01.20:137][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:137][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:137][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:137][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:137][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:137][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:137][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:137][500]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.11.13-16.01.20:137][500]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.11.13-16.01.20:137][500]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.11.13-16.01.20:137][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:137][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:137][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:137][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:137][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:137][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:137][500]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.13-16.01.20:137][500]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.11.13-16.01.20:671][500]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.11.13-16.01.21:278][500]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.11.13-16.01.21:298][500]LogExit: Editor shut down
+[2021.11.13-16.01.21:310][500]LogExit: Transaction tracking system shut down
+[2021.11.13-16.01.26:641][500]LogExit: Object subsystem successfully closed.
+[2021.11.13-16.01.26:890][500]LogShaderCompilers: Display: Shaders left to compile 0
